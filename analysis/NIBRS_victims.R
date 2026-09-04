@@ -148,3 +148,4 @@ victim_table = victims %>%
 print(victim_table, n = Inf)
 
 write_csv(victim_table, "results/victim_race_age_sex.csv")
+
