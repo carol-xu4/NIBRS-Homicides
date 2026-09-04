@@ -1,0 +1,498 @@
+race,ethnicity,age_group_5yr,sex,n_victims,n_offenders,n,weighted,victim_rate_per_100k,offender_rate_per_100k
+American Indian or Alaska Native,Not Hispanic/Latino,0-4,Female,1,0,718,44293,2.257693089201454,0
+American Indian or Alaska Native,Not Hispanic/Latino,0-4,Male,1,0,767,51050,1.958863858961802,0
+American Indian or Alaska Native,Not Hispanic/Latino,5-9,Male,1,0,1033,62545,1.5988488288432328,0
+American Indian or Alaska Native,Not Hispanic/Latino,10-14,Female,0,1,1113,61388,0,1.6289828631002803
+American Indian or Alaska Native,Not Hispanic/Latino,10-14,Male,1,7,1137,65518,1.5262981165481242,10.684086815836869
+American Indian or Alaska Native,Not Hispanic/Latino,15-19,Female,3,5,1103,64279,4.6671541249863875,7.7785902083106455
+American Indian or Alaska Native,Not Hispanic/Latino,15-19,Male,11,24,1178,66718,16.487304775323,35.972301327977455
+American Indian or Alaska Native,Not Hispanic/Latino,20-24,Female,4,3,760,54417,7.35064410018928,5.5129830751419595
+American Indian or Alaska Native,Not Hispanic/Latino,20-24,Male,15,19,903,63039,23.794793699138626,30.14007201890893
+American Indian or Alaska Native,Not Hispanic/Latino,25-29,Female,5,6,759,61775,8.093889113719143,9.71266693646297
+American Indian or Alaska Native,Not Hispanic/Latino,25-29,Male,14,22,863,60235,23.242300987797794,36.52361583796796
+American Indian or Alaska Native,Not Hispanic/Latino,30-34,Female,8,2,853,62378,12.825034467280132,3.206258616820033
+American Indian or Alaska Native,Not Hispanic/Latino,30-34,Male,26,21,980,65571,39.65167528328072,32.02635311341904
+American Indian or Alaska Native,Not Hispanic/Latino,35-39,Female,4,8,874,65863,6.073212577623248,12.146425155246495
+American Indian or Alaska Native,Not Hispanic/Latino,35-39,Male,21,10,974,60251,34.85419329139766,16.597234900665548
+American Indian or Alaska Native,Not Hispanic/Latino,40-44,Female,6,2,857,58623,10.234890742541323,3.4116302475137745
+American Indian or Alaska Native,Not Hispanic/Latino,40-44,Male,8,6,928,61191,13.073818045137358,9.805363533853019
+American Indian or Alaska Native,Not Hispanic/Latino,45-49,Female,1,2,822,53482,1.8697879660446506,3.739575932089301
+American Indian or Alaska Native,Not Hispanic/Latino,45-49,Male,4,6,832,53166,7.52360531166535,11.285407967498026
+American Indian or Alaska Native,Not Hispanic/Latino,50-54,Female,1,1,887,51504,1.941596769182976,1.941596769182976
+American Indian or Alaska Native,Not Hispanic/Latino,50-54,Male,6,1,901,50122,11.9707912693029,1.99513187821715
+American Indian or Alaska Native,Not Hispanic/Latino,55-59,Female,2,2,991,54158,3.6928985560766647,3.6928985560766647
+American Indian or Alaska Native,Not Hispanic/Latino,55-59,Male,5,3,938,46558,10.739292924953821,6.443575754972294
+American Indian or Alaska Native,Not Hispanic/Latino,60-64,Female,2,1,1177,58876,3.396969902846661,1.6984849514233304
+American Indian or Alaska Native,Not Hispanic/Latino,60-64,Male,4,2,1002,50140,7.9776625448743514,3.9888312724371757
+American Indian or Alaska Native,Not Hispanic/Latino,65-69,Male,2,0,806,36077,5.543698201069933,0
+American Indian or Alaska Native,Not Hispanic/Latino,70-74,Male,3,1,615,30080,9.973404255319148,3.3244680851063833
+American Indian or Alaska Native,Not Hispanic/Latino,80+,Female,1,0,547,26103,3.8309772823047155,0
+American Indian or Alaska Native,Not Hispanic/Latino,Unknown,Female,1,0,NA,NA,NA,NA
+American Indian or Alaska Native,Not Hispanic/Latino,Unknown,Male,2,0,NA,NA,NA,NA
+American Indian or Alaska Native,Hispanic/Latino,15-19,Female,0,1,695,72096,0,1.3870395028850422
+American Indian or Alaska Native,Hispanic/Latino,15-19,Male,1,3,747,81000,1.2345679012345678,3.7037037037037037
+American Indian or Alaska Native,Hispanic/Latino,20-24,Male,1,0,688,79940,1.2509382036527397,0
+American Indian or Alaska Native,Hispanic/Latino,30-34,Male,2,1,635,72092,2.774232924596349,1.3871164622981744
+American Indian or Alaska Native,Hispanic/Latino,35-39,Male,2,0,578,74132,2.697890249824637,0
+American Indian or Alaska Native,Hispanic/Latino,40-44,Female,0,1,551,60676,0,1.6480980947986021
+American Indian or Alaska Native,Hispanic/Latino,40-44,Male,1,0,587,73610,1.3585110718652356,0
+American Indian or Alaska Native,Hispanic/Latino,60-64,Male,1,0,288,27744,3.6043829296424454,0
+American Indian or Alaska Native,Hispanic/Latino,65-69,Male,1,0,214,20687,4.833953690723643,0
+American Indian or Alaska Native,NA,0-4,Female,1,0,NA,NA,NA,NA
+American Indian or Alaska Native,NA,0-4,Male,1,0,NA,NA,NA,NA
+American Indian or Alaska Native,NA,5-9,Male,0,1,NA,NA,NA,NA
+American Indian or Alaska Native,NA,10-14,Female,1,0,NA,NA,NA,NA
+American Indian or Alaska Native,NA,10-14,Male,2,2,NA,NA,NA,NA
+American Indian or Alaska Native,NA,15-19,Female,4,2,NA,NA,NA,NA
+American Indian or Alaska Native,NA,15-19,Male,5,18,NA,NA,NA,NA
+American Indian or Alaska Native,NA,20-24,Female,1,6,NA,NA,NA,NA
+American Indian or Alaska Native,NA,20-24,Male,4,18,NA,NA,NA,NA
+American Indian or Alaska Native,NA,25-29,Female,6,3,NA,NA,NA,NA
+American Indian or Alaska Native,NA,25-29,Male,5,7,NA,NA,NA,NA
+American Indian or Alaska Native,NA,30-34,Female,3,8,NA,NA,NA,NA
+American Indian or Alaska Native,NA,30-34,Male,12,12,NA,NA,NA,NA
+American Indian or Alaska Native,NA,35-39,Female,3,3,NA,NA,NA,NA
+American Indian or Alaska Native,NA,35-39,Male,5,11,NA,NA,NA,NA
+American Indian or Alaska Native,NA,40-44,Female,2,1,NA,NA,NA,NA
+American Indian or Alaska Native,NA,40-44,Male,11,8,NA,NA,NA,NA
+American Indian or Alaska Native,NA,45-49,Female,2,1,NA,NA,NA,NA
+American Indian or Alaska Native,NA,45-49,Male,2,1,NA,NA,NA,NA
+American Indian or Alaska Native,NA,50-54,Female,0,2,NA,NA,NA,NA
+American Indian or Alaska Native,NA,50-54,Male,1,2,NA,NA,NA,NA
+American Indian or Alaska Native,NA,55-59,Male,2,1,NA,NA,NA,NA
+American Indian or Alaska Native,NA,60-64,Female,1,0,NA,NA,NA,NA
+American Indian or Alaska Native,NA,60-64,Male,2,1,NA,NA,NA,NA
+American Indian or Alaska Native,NA,65-69,Male,1,0,NA,NA,NA,NA
+American Indian or Alaska Native,NA,70-74,Female,1,0,NA,NA,NA,NA
+American Indian or Alaska Native,NA,70-74,Male,1,1,NA,NA,NA,NA
+American Indian or Alaska Native,NA,75-79,Male,1,1,NA,NA,NA,NA
+American Indian or Alaska Native,NA,80+,Male,1,0,NA,NA,NA,NA
+American Indian or Alaska Native,NA,Unknown,Female,0,1,NA,NA,NA,NA
+American Indian or Alaska Native,NA,Unknown,Male,1,3,NA,NA,NA,NA
+Asian or Pacific Islander,Not Hispanic/Latino,0-4,Female,2,0,4031,434983,0.4597880836722355,0
+Asian or Pacific Islander,Not Hispanic/Latino,0-4,Male,5,0,3999,452887,1.1040281571341195,0
+Asian or Pacific Islander,Not Hispanic/Latino,5-9,Female,1,0,4760,491657,0.2033938294380025,0
+Asian or Pacific Islander,Not Hispanic/Latino,5-9,Male,7,0,5081,533464,1.3121785162635156,0
+Asian or Pacific Islander,Not Hispanic/Latino,10-14,Female,1,0,5374,549519,0.18197732926432025,0
+Asian or Pacific Islander,Not Hispanic/Latino,10-14,Male,3,2,5653,583358,0.5142639682664848,0.3428426455109898
+Asian or Pacific Islander,Not Hispanic/Latino,15-19,Female,5,1,6998,585131,0.8545095030001829,0.17090190060003657
+Asian or Pacific Islander,Not Hispanic/Latino,15-19,Male,13,25,6928,598649,2.171556287574188,4.176069783796516
+Asian or Pacific Islander,Not Hispanic/Latino,20-24,Female,2,3,6534,600225,0.3332083801907618,0.49981257028614273
+Asian or Pacific Islander,Not Hispanic/Latino,20-24,Male,16,23,6842,615160,2.600949346511477,3.7388646856102477
+Asian or Pacific Islander,Not Hispanic/Latino,25-29,Female,9,2,7097,728461,1.2354813778637428,0.274551417303054
+Asian or Pacific Islander,Not Hispanic/Latino,25-29,Male,17,19,7170,715993,2.374324888651146,2.6536572284924573
+Asian or Pacific Islander,Not Hispanic/Latino,30-34,Female,8,5,8499,890331,0.8985422275535727,0.561588892220983
+Asian or Pacific Islander,Not Hispanic/Latino,30-34,Male,11,10,7723,831671,1.3226383990784818,1.2023985446168015
+Asian or Pacific Islander,Not Hispanic/Latino,35-39,Female,16,3,8748,911981,1.754422515381351,0.32895422163400334
+Asian or Pacific Islander,Not Hispanic/Latino,35-39,Male,15,10,7553,838295,1.7893462325315075,1.1928974883543382
+Asian or Pacific Islander,Not Hispanic/Latino,40-44,Female,5,2,8642,871482,0.5737353152446063,0.2294941260978425
+Asian or Pacific Islander,Not Hispanic/Latino,40-44,Male,8,6,7138,783194,1.0214582849204665,0.7660937136903501
+Asian or Pacific Islander,Not Hispanic/Latino,45-49,Female,5,1,8500,786556,0.6356826468808324,0.12713652937616648
+Asian or Pacific Islander,Not Hispanic/Latino,45-49,Male,12,11,7037,696873,1.7219780361701487,1.578479866489303
+Asian or Pacific Islander,Not Hispanic/Latino,50-54,Female,8,2,8409,758441,1.0547952971951673,0.2636988242987918
+Asian or Pacific Islander,Not Hispanic/Latino,50-54,Male,10,8,7015,664613,1.5046350282043837,1.2037080225635068
+Asian or Pacific Islander,Not Hispanic/Latino,55-59,Female,8,0,7541,656590,1.2184163633317595,0
+Asian or Pacific Islander,Not Hispanic/Latino,55-59,Male,8,5,6126,551553,1.4504499114319023,0.9065311946449388
+Asian or Pacific Islander,Not Hispanic/Latino,60-64,Female,7,1,6886,582461,1.2017972018727434,0.17168531455324906
+Asian or Pacific Islander,Not Hispanic/Latino,60-64,Male,10,4,5903,521454,1.9177146977489863,0.7670858790995946
+Asian or Pacific Islander,Not Hispanic/Latino,65-69,Female,13,0,6181,542699,2.3954346700473006,0
+Asian or Pacific Islander,Not Hispanic/Latino,65-69,Male,9,4,5015,445894,2.018416933172458,0.8970741925210924
+Asian or Pacific Islander,Not Hispanic/Latino,70-74,Female,5,0,5267,451145,1.1082911259129546,0
+Asian or Pacific Islander,Not Hispanic/Latino,70-74,Male,8,2,3925,335932,2.381434337901718,0.5953585844754296
+Asian or Pacific Islander,Not Hispanic/Latino,75-79,Female,3,0,3378,307244,0.9764226477978415,0
+Asian or Pacific Islander,Not Hispanic/Latino,75-79,Male,3,1,2796,243953,1.2297450738461917,0.40991502461539725
+Asian or Pacific Islander,Not Hispanic/Latino,80+,Female,7,0,4219,381582,1.8344680828760267,0
+Asian or Pacific Islander,Not Hispanic/Latino,80+,Male,1,2,2926,257653,0.38811890410746236,0.7762378082149247
+Asian or Pacific Islander,Not Hispanic/Latino,Unknown,Female,1,0,NA,NA,NA,NA
+Asian or Pacific Islander,Not Hispanic/Latino,Unknown,Male,0,1,NA,NA,NA,NA
+Asian or Pacific Islander,Not Hispanic/Latino,Unknown,NA,0,2,NA,NA,NA,NA
+Asian or Pacific Islander,Hispanic/Latino,15-19,Male,2,2,166,17653,11.329519061915821,11.329519061915821
+Asian or Pacific Islander,Hispanic/Latino,20-24,Female,1,0,166,16317,6.1285775571489864,0
+Asian or Pacific Islander,Hispanic/Latino,20-24,Male,1,3,160,16699,5.98838253787652,17.965147613629558
+Asian or Pacific Islander,Hispanic/Latino,25-29,Male,2,2,150,15432,12.960082944530845,12.960082944530845
+Asian or Pacific Islander,Hispanic/Latino,35-39,Male,1,2,107,12347,8.099133392726978,16.198266785453956
+Asian or Pacific Islander,Hispanic/Latino,45-49,Male,1,1,81,9288,10.766580534022394,10.766580534022394
+Asian or Pacific Islander,Hispanic/Latino,70-74,Male,1,0,23,2222,45.004500450045,0
+Asian or Pacific Islander,Hispanic/Latino,75-79,Male,1,0,15,1411,70.87172218284904,0
+Asian or Pacific Islander,Hispanic/Latino,Unknown,Male,0,1,NA,NA,NA,NA
+Asian or Pacific Islander,NA,0-4,Male,1,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,5-9,Female,2,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,5-9,Male,1,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,10-14,Female,2,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,10-14,Male,1,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,15-19,Female,0,1,NA,NA,NA,NA
+Asian or Pacific Islander,NA,15-19,Male,1,6,NA,NA,NA,NA
+Asian or Pacific Islander,NA,20-24,Female,3,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,20-24,Male,5,17,NA,NA,NA,NA
+Asian or Pacific Islander,NA,25-29,Female,1,1,NA,NA,NA,NA
+Asian or Pacific Islander,NA,25-29,Male,3,7,NA,NA,NA,NA
+Asian or Pacific Islander,NA,30-34,Female,4,1,NA,NA,NA,NA
+Asian or Pacific Islander,NA,30-34,Male,8,8,NA,NA,NA,NA
+Asian or Pacific Islander,NA,35-39,Female,1,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,35-39,Male,5,3,NA,NA,NA,NA
+Asian or Pacific Islander,NA,40-44,Female,0,2,NA,NA,NA,NA
+Asian or Pacific Islander,NA,40-44,Male,7,5,NA,NA,NA,NA
+Asian or Pacific Islander,NA,45-49,Female,3,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,45-49,Male,1,4,NA,NA,NA,NA
+Asian or Pacific Islander,NA,50-54,Female,1,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,50-54,Male,3,6,NA,NA,NA,NA
+Asian or Pacific Islander,NA,55-59,Female,3,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,55-59,Male,0,2,NA,NA,NA,NA
+Asian or Pacific Islander,NA,60-64,Female,1,1,NA,NA,NA,NA
+Asian or Pacific Islander,NA,60-64,Male,0,3,NA,NA,NA,NA
+Asian or Pacific Islander,NA,65-69,Female,0,1,NA,NA,NA,NA
+Asian or Pacific Islander,NA,65-69,Male,1,2,NA,NA,NA,NA
+Asian or Pacific Islander,NA,70-74,Female,1,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,70-74,Male,0,1,NA,NA,NA,NA
+Asian or Pacific Islander,NA,75-79,Male,1,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,80+,Male,1,0,NA,NA,NA,NA
+Asian or Pacific Islander,NA,Unknown,Male,0,2,NA,NA,NA,NA
+Black or African American,Not Hispanic/Latino,0-4,Female,65,0,5552,1121611,5.795235603074507,0
+Black or African American,Not Hispanic/Latino,0-4,Male,79,0,5764,1166040,6.775067750677507,0
+Black or African American,Not Hispanic/Latino,5-9,Female,23,0,6643,1219964,1.8853015334878733,0
+Black or African American,Not Hispanic/Latino,5-9,Male,30,0,7011,1248198,2.4034648349060004,0
+Black or African American,Not Hispanic/Latino,10-14,Female,36,10,7460,1305910,2.7566983942231853,0.7657495539508847
+Black or African American,Not Hispanic/Latino,10-14,Male,99,78,7907,1388504,7.129975858910021,5.617556737323047
+Black or African American,Not Hispanic/Latino,15-19,Female,136,76,9954,1364432,9.967517619053204,5.57008337535326
+Black or African American,Not Hispanic/Latino,15-19,Male,885,1166,10551,1467772,60.295468233485856,79.44013102852487
+Black or African American,Not Hispanic/Latino,15-19,NA,0,1,NA,NA,NA,NA
+Black or African American,Not Hispanic/Latino,20-24,Female,161,138,8775,1378020,11.683429848623387,10.01436844167719
+Black or African American,Not Hispanic/Latino,20-24,Male,1043,1131,9806,1376874,75.75130331460977,82.14259256838317
+Black or African American,Not Hispanic/Latino,25-29,Female,148,124,7663,1426627,10.37412021502467,8.691830450426075
+Black or African American,Not Hispanic/Latino,25-29,Male,916,751,8908,1393797,65.71975689429667,53.88159107818427
+Black or African American,Not Hispanic/Latino,25-29,NA,0,1,NA,NA,NA,NA
+Black or African American,Not Hispanic/Latino,30-34,Female,141,93,8588,1597692,8.825230394844564,5.820896643408116
+Black or African American,Not Hispanic/Latino,30-34,Male,866,700,9763,1538258,56.297448152390565,45.50602044650507
+Black or African American,Not Hispanic/Latino,30-34,NA,0,3,NA,NA,NA,NA
+Black or African American,Not Hispanic/Latino,35-39,Female,96,67,8338,1396599,6.873841381813963,4.7973684643909955
+Black or African American,Not Hispanic/Latino,35-39,Male,561,423,9072,1321154,42.46287715133891,32.01746352052827
+Black or African American,Not Hispanic/Latino,35-39,NA,1,0,NA,NA,NA,NA
+Black or African American,Not Hispanic/Latino,40-44,Female,106,56,8885,1464350,7.238706593369072,3.824222351213849
+Black or African American,Not Hispanic/Latino,40-44,Male,481,332,9013,1330811,36.14337422819619,24.947193853973257
+Black or African American,Not Hispanic/Latino,45-49,Female,71,23,8305,1256380,5.651156497238096,1.8306563300912144
+Black or African American,Not Hispanic/Latino,45-49,Male,319,187,8485,1121616,28.441106403617635,16.672372719362063
+Black or African American,Not Hispanic/Latino,50-54,Female,45,24,9481,1275954,3.5267729087412243,1.880945551328653
+Black or African American,Not Hispanic/Latino,50-54,Male,223,153,8996,1157146,19.271552595783074,13.222186310111258
+Black or African American,Not Hispanic/Latino,55-59,Female,62,10,10649,1224629,5.062757782152799,0.8165738358310966
+Black or African American,Not Hispanic/Latino,55-59,Male,192,114,9587,1065389,18.021586481557442,10.70031697342473
+Black or African American,Not Hispanic/Latino,55-59,NA,0,1,NA,NA,NA,NA
+Black or African American,Not Hispanic/Latino,60-64,Female,23,10,12001,1320490,1.741777673439405,0.7572946406258283
+Black or African American,Not Hispanic/Latino,60-64,Male,124,62,10328,1121886,11.052816418067433,5.5264082090337165
+Black or African American,Not Hispanic/Latino,65-69,Female,25,9,11515,1111621,2.2489679486083833,0.8096284614990181
+Black or African American,Not Hispanic/Latino,65-69,Male,86,33,9231,893080,9.6295964527254,3.6950777086039324
+Black or African American,Not Hispanic/Latino,70-74,Female,23,2,9308,889789,2.584882483375272,0.2247723898587193
+Black or African American,Not Hispanic/Latino,70-74,Male,32,13,6996,653027,4.900256804083139,1.9907293266587753
+Black or African American,Not Hispanic/Latino,75-79,Female,8,3,6201,574807,1.3917714989553016,0.521914312108238
+Black or African American,Not Hispanic/Latino,75-79,Male,6,3,4344,386963,1.5505358393438131,0.7752679196719066
+Black or African American,Not Hispanic/Latino,80+,Female,11,0,7599,662725,1.6598136481949528,0
+Black or African American,Not Hispanic/Latino,80+,Male,10,6,4166,360814,2.771511083272822,1.6629066499636933
+Black or African American,Not Hispanic/Latino,Unknown,Female,10,12,NA,NA,NA,NA
+Black or African American,Not Hispanic/Latino,Unknown,Male,36,278,NA,NA,NA,NA
+Black or African American,Not Hispanic/Latino,Unknown,NA,1,23,NA,NA,NA,NA
+Black or African American,Hispanic/Latino,0-4,Female,2,0,348,55373,3.611868600220324,0
+Black or African American,Hispanic/Latino,0-4,Male,2,0,401,65310,3.062318174858368,0
+Black or African American,Hispanic/Latino,5-9,Female,1,0,370,54048,1.8502072232089992,0
+Black or African American,Hispanic/Latino,10-14,Female,1,0,402,60916,1.641604832884628,0
+Black or African American,Hispanic/Latino,15-19,Female,1,1,418,48140,2.077274615704196,2.077274615704196
+Black or African American,Hispanic/Latino,15-19,Male,12,25,560,58187,20.62316324952309,42.96492343650643
+Black or African American,Hispanic/Latino,20-24,Female,1,3,409,46131,2.167739697817086,6.503219093451258
+Black or African American,Hispanic/Latino,20-24,Male,18,7,453,50034,35.97553663508814,13.990486469200942
+Black or African American,Hispanic/Latino,25-29,Female,0,1,371,45437,0,2.2008495279177764
+Black or African American,Hispanic/Latino,25-29,Male,7,16,365,45713,15.312930676175267,35.00098440268632
+Black or African American,Hispanic/Latino,30-34,Female,1,0,361,49860,2.005615724027276,0
+Black or African American,Hispanic/Latino,30-34,Male,10,7,375,45636,21.91252519940398,15.338767639582786
+Black or African American,Hispanic/Latino,35-39,Female,2,0,260,37379,5.350597929318601,0
+Black or African American,Hispanic/Latino,35-39,Male,9,1,276,35803,25.137558305169957,2.7930620339077734
+Black or African American,Hispanic/Latino,40-44,Female,1,0,237,32043,3.1208064163779916,0
+Black or African American,Hispanic/Latino,40-44,Male,6,2,196,22716,26.413100898045432,8.804366966015143
+Black or African American,Hispanic/Latino,45-49,Female,1,1,193,22543,4.435966818968194,4.435966818968194
+Black or African American,Hispanic/Latino,45-49,Male,3,1,147,16794,17.86352268667381,5.954507562224604
+Black or African American,Hispanic/Latino,50-54,Female,0,1,169,21322,0,4.689991558015196
+Black or African American,Hispanic/Latino,50-54,Male,3,3,117,15105,19.860973187686195,19.860973187686195
+Black or African American,Hispanic/Latino,50-54,NA,1,0,NA,NA,NA,NA
+Black or African American,Hispanic/Latino,55-59,Female,1,0,152,17679,5.656428531025511,0
+Black or African American,Hispanic/Latino,55-59,Male,2,0,103,12367,16.17207083367025,0
+Black or African American,Hispanic/Latino,60-64,Male,0,1,98,12310,0,8.123476848090982
+Black or African American,Hispanic/Latino,65-69,Male,1,0,80,9115,10.970927043335163,0
+Black or African American,Hispanic/Latino,Unknown,Male,2,1,NA,NA,NA,NA
+Black or African American,NA,0-4,Female,22,0,NA,NA,NA,NA
+Black or African American,NA,0-4,Male,23,3,NA,NA,NA,NA
+Black or African American,NA,0-4,NA,1,0,NA,NA,NA,NA
+Black or African American,NA,5-9,Female,3,0,NA,NA,NA,NA
+Black or African American,NA,5-9,Male,8,0,NA,NA,NA,NA
+Black or African American,NA,10-14,Female,4,3,NA,NA,NA,NA
+Black or African American,NA,10-14,Male,25,43,NA,NA,NA,NA
+Black or African American,NA,15-19,Female,32,38,NA,NA,NA,NA
+Black or African American,NA,15-19,Male,233,530,NA,NA,NA,NA
+Black or African American,NA,15-19,NA,1,1,NA,NA,NA,NA
+Black or African American,NA,20-24,Female,46,65,NA,NA,NA,NA
+Black or African American,NA,20-24,Male,254,523,NA,NA,NA,NA
+Black or African American,NA,25-29,Female,40,69,NA,NA,NA,NA
+Black or African American,NA,25-29,Male,230,361,NA,NA,NA,NA
+Black or African American,NA,30-34,Female,43,42,NA,NA,NA,NA
+Black or African American,NA,30-34,Male,244,268,NA,NA,NA,NA
+Black or African American,NA,35-39,Female,27,43,NA,NA,NA,NA
+Black or African American,NA,35-39,Male,163,154,NA,NA,NA,NA
+Black or African American,NA,40-44,Female,27,22,NA,NA,NA,NA
+Black or African American,NA,40-44,Male,129,129,NA,NA,NA,NA
+Black or African American,NA,40-44,NA,1,1,NA,NA,NA,NA
+Black or African American,NA,45-49,Female,17,11,NA,NA,NA,NA
+Black or African American,NA,45-49,Male,95,91,NA,NA,NA,NA
+Black or African American,NA,50-54,Female,20,10,NA,NA,NA,NA
+Black or African American,NA,50-54,Male,55,70,NA,NA,NA,NA
+Black or African American,NA,50-54,NA,0,1,NA,NA,NA,NA
+Black or African American,NA,55-59,Female,10,10,NA,NA,NA,NA
+Black or African American,NA,55-59,Male,39,50,NA,NA,NA,NA
+Black or African American,NA,60-64,Female,14,2,NA,NA,NA,NA
+Black or African American,NA,60-64,Male,39,28,NA,NA,NA,NA
+Black or African American,NA,60-64,NA,1,0,NA,NA,NA,NA
+Black or African American,NA,65-69,Female,7,3,NA,NA,NA,NA
+Black or African American,NA,65-69,Male,22,14,NA,NA,NA,NA
+Black or African American,NA,70-74,Female,4,0,NA,NA,NA,NA
+Black or African American,NA,70-74,Male,7,5,NA,NA,NA,NA
+Black or African American,NA,75-79,Female,6,0,NA,NA,NA,NA
+Black or African American,NA,75-79,Male,7,3,NA,NA,NA,NA
+Black or African American,NA,80+,Female,1,0,NA,NA,NA,NA
+Black or African American,NA,80+,Male,1,3,NA,NA,NA,NA
+Black or African American,NA,Unknown,Female,3,10,NA,NA,NA,NA
+Black or African American,NA,Unknown,Male,20,223,NA,NA,NA,NA
+Black or African American,NA,Unknown,NA,1,13,NA,NA,NA,NA
+White,Not Hispanic/Latino,0-4,Female,44,0,41412,4081400,1.0780614495026217,0
+White,Not Hispanic/Latino,0-4,Male,63,0,43601,4324961,1.4566605340487464,0
+White,Not Hispanic/Latino,5-9,Female,13,0,46448,4568310,0.28456912950303287,0
+White,Not Hispanic/Latino,5-9,Male,26,1,49202,4822530,0.5391360966131885,0.020736003715891866
+White,Not Hispanic/Latino,5-9,NA,1,0,NA,NA,NA,NA
+White,Not Hispanic/Latino,10-14,Female,11,2,49797,4841163,0.22721812919746762,0.041312387126812296
+White,Not Hispanic/Latino,10-14,Male,26,13,52617,5100475,0.5097564442527411,0.25487822212637057
+White,Not Hispanic/Latino,15-19,Female,55,42,57324,5227359,1.0521565478858443,0.8034650002037358
+White,Not Hispanic/Latino,15-19,Male,175,229,60263,5538029,3.159969007023979,4.135045157762807
+White,Not Hispanic/Latino,15-19,NA,1,0,NA,NA,NA,NA
+White,Not Hispanic/Latino,20-24,Female,102,75,50217,5372415,1.8985875067357976,1.3960202255410277
+White,Not Hispanic/Latino,20-24,Male,209,279,53408,5700266,3.6664955635403684,4.894508431711784
+White,Not Hispanic/Latino,25-29,Female,82,72,52454,5572025,1.4716373311318596,1.2921693639206573
+White,Not Hispanic/Latino,25-29,Male,166,254,54610,5786685,2.8686545059909085,4.389387015190908
+White,Not Hispanic/Latino,30-34,Female,120,88,60431,6038997,1.9870849414232197,1.4571956237103612
+White,Not Hispanic/Latino,30-34,Male,238,265,62681,6202788,3.8369842722337117,4.272272403957704
+White,Not Hispanic/Latino,35-39,Female,126,78,61723,6043174,2.084997056182728,1.2907124633512124
+White,Not Hispanic/Latino,35-39,Male,240,239,63053,6230648,3.8519267979831313,3.835877102991535
+White,Not Hispanic/Latino,35-39,NA,1,1,NA,NA,NA,NA
+White,Not Hispanic/Latino,40-44,Female,126,63,61214,5948458,2.1181960097894277,1.0590980048947138
+White,Not Hispanic/Latino,40-44,Male,223,224,62589,6089045,3.6623148621828214,3.678737798784538
+White,Not Hispanic/Latino,40-44,NA,2,0,NA,NA,NA,NA
+White,Not Hispanic/Latino,45-49,Female,98,32,56801,5393799,1.81690122305262,0.5932738687518759
+White,Not Hispanic/Latino,45-49,Male,189,150,57865,5513023,3.4282461727440645,2.720830295828623
+White,Not Hispanic/Latino,45-49,NA,0,1,NA,NA,NA,NA
+White,Not Hispanic/Latino,50-54,Female,90,24,67196,6031657,1.492127287741992,0.3979006100645312
+White,Not Hispanic/Latino,50-54,Male,163,130,66447,6154052,2.648661402276094,2.1124293392386027
+White,Not Hispanic/Latino,55-59,Female,82,25,76865,6342744,1.2928158538323475,0.39415117494888646
+White,Not Hispanic/Latino,55-59,Male,181,119,72987,6332818,2.858127298147523,1.8791002678428466
+White,Not Hispanic/Latino,60-64,Female,102,13,93451,7415706,1.3754590594610951,0.17530360561759056
+White,Not Hispanic/Latino,60-64,Male,142,100,86950,7196657,1.9731383613252653,1.3895340572713137
+White,Not Hispanic/Latino,65-69,Female,71,6,95348,6948251,1.0218398845982968,0.08635266630408142
+White,Not Hispanic/Latino,65-69,Male,109,48,87558,6433176,1.694341954891332,0.7461322370163664
+White,Not Hispanic/Latino,70-74,Female,55,8,83954,6041094,0.9104311238990819,0.13242634529441188
+White,Not Hispanic/Latino,70-74,Male,77,37,76065,5499518,1.4001227016622184,0.6727862332662609
+White,Not Hispanic/Latino,75-79,Female,41,7,65581,4591136,0.8930251684986025,0.15246771169488335
+White,Not Hispanic/Latino,75-79,Male,43,32,57814,3956214,1.0868977259571904,0.8088541216425603
+White,Not Hispanic/Latino,80+,Female,51,2,85466,5973223,0.8538104135740453,0.03348276131662923
+White,Not Hispanic/Latino,80+,Male,52,33,59656,4088412,1.271887471223546,0.8071593567380195
+White,Not Hispanic/Latino,Unknown,Female,11,1,NA,NA,NA,NA
+White,Not Hispanic/Latino,Unknown,Male,12,13,NA,NA,NA,NA
+White,Not Hispanic/Latino,Unknown,NA,0,1,NA,NA,NA,NA
+White,Hispanic/Latino,0-4,Female,25,0,3666,483266,5.173134464249502,0
+White,Hispanic/Latino,0-4,Male,35,0,3821,512419,6.830347820826316,0
+White,Hispanic/Latino,5-9,Female,8,0,3821,482455,1.6581857375299252,0
+White,Hispanic/Latino,5-9,Male,8,0,4051,497443,1.6082244598878663,0
+White,Hispanic/Latino,10-14,Female,17,3,4030,496480,3.424105704157267,0.6042539477924589
+White,Hispanic/Latino,10-14,Male,27,42,4302,528215,5.1115549539486755,7.9513077061423845
+White,Hispanic/Latino,15-19,Female,68,40,5027,531236,12.800337326536606,7.529610192080356
+White,Hispanic/Latino,15-19,Male,326,533,4850,517151,63.037681450872185,103.06467550096586
+White,Hispanic/Latino,15-19,NA,1,0,NA,NA,NA,NA
+White,Hispanic/Latino,20-24,Female,86,67,4592,526025,16.349032840644455,12.737037213060216
+White,Hispanic/Latino,20-24,Male,316,414,4520,500318,63.15983034789874,82.74737267098125
+White,Hispanic/Latino,25-29,Female,56,38,4352,494874,11.316011752486492,7.678722260615834
+White,Hispanic/Latino,25-29,Male,264,281,4168,467356,56.487987743818415,60.12547180307945
+White,Hispanic/Latino,30-34,Female,70,28,3977,471977,14.831231182875436,5.932492473150174
+White,Hispanic/Latino,30-34,Male,289,213,3849,436111,66.26753280701473,48.840776774720204
+White,Hispanic/Latino,35-39,Female,49,30,3480,407451,12.025985946776423,7.362848538842708
+White,Hispanic/Latino,35-39,Male,212,174,3405,409038,51.82892542991116,42.53883502266293
+White,Hispanic/Latino,40-44,Female,39,10,2966,347684,11.217082178069742,2.87617491745378
+White,Hispanic/Latino,40-44,Male,174,119,2940,350604,49.62864085977342,33.94142679490251
+White,Hispanic/Latino,45-49,Female,31,8,2680,296308,10.462086747573471,2.6998933542125085
+White,Hispanic/Latino,45-49,Male,107,76,2567,298812,35.8084682007416,25.434052179966
+White,Hispanic/Latino,50-54,Female,24,6,2554,266589,9.002622013661478,2.2506555034153695
+White,Hispanic/Latino,50-54,Male,98,66,2234,246165,39.810696077833974,26.811285113643287
+White,Hispanic/Latino,55-59,Female,23,2,2373,232419,9.895920729372383,0.8605148460323813
+White,Hispanic/Latino,55-59,Male,53,25,2007,213130,24.86745178998733,11.729930089616666
+White,Hispanic/Latino,60-64,Female,17,2,2166,199453,8.523311256285943,1.0027425007395225
+White,Hispanic/Latino,60-64,Male,28,12,1871,183817,15.232541059858447,6.528231882796477
+White,Hispanic/Latino,65-69,Female,7,1,1823,157365,4.448257236361326,0.6354653194801894
+White,Hispanic/Latino,65-69,Male,25,10,1560,142368,17.56012587098224,7.0240503483928975
+White,Hispanic/Latino,70-74,Female,8,0,1517,132119,6.055147253612273,0
+White,Hispanic/Latino,70-74,Male,7,2,1192,100434,6.969751279447198,1.9913575084134854
+White,Hispanic/Latino,75-79,Female,2,0,1113,94672,2.112557039040054,0
+White,Hispanic/Latino,75-79,Male,6,2,873,74426,8.061698868674926,2.687232956224975
+White,Hispanic/Latino,80+,Female,2,0,1551,123512,1.6192758598354815,0
+White,Hispanic/Latino,80+,Male,8,3,970,78018,10.254043938578278,3.8452664769668536
+White,Hispanic/Latino,Unknown,Female,7,6,NA,NA,NA,NA
+White,Hispanic/Latino,Unknown,Male,10,66,NA,NA,NA,NA
+White,Hispanic/Latino,Unknown,NA,0,3,NA,NA,NA,NA
+White,NA,0-4,Female,23,0,NA,NA,NA,NA
+White,NA,0-4,Male,29,0,NA,NA,NA,NA
+White,NA,0-4,NA,1,0,NA,NA,NA,NA
+White,NA,5-9,Female,5,0,NA,NA,NA,NA
+White,NA,5-9,Male,12,0,NA,NA,NA,NA
+White,NA,10-14,Female,9,2,NA,NA,NA,NA
+White,NA,10-14,Male,13,17,NA,NA,NA,NA
+White,NA,15-19,Female,37,34,NA,NA,NA,NA
+White,NA,15-19,Male,94,267,NA,NA,NA,NA
+White,NA,20-24,Female,43,57,NA,NA,NA,NA
+White,NA,20-24,Male,83,239,NA,NA,NA,NA
+White,NA,25-29,Female,41,52,NA,NA,NA,NA
+White,NA,25-29,Male,91,218,NA,NA,NA,NA
+White,NA,25-29,NA,1,0,NA,NA,NA,NA
+White,NA,30-34,Female,57,55,NA,NA,NA,NA
+White,NA,30-34,Male,99,213,NA,NA,NA,NA
+White,NA,35-39,Female,52,52,NA,NA,NA,NA
+White,NA,35-39,Male,96,189,NA,NA,NA,NA
+White,NA,35-39,NA,1,0,NA,NA,NA,NA
+White,NA,40-44,Female,60,36,NA,NA,NA,NA
+White,NA,40-44,Male,96,144,NA,NA,NA,NA
+White,NA,45-49,Female,33,25,NA,NA,NA,NA
+White,NA,45-49,Male,77,111,NA,NA,NA,NA
+White,NA,50-54,Female,35,27,NA,NA,NA,NA
+White,NA,50-54,Male,64,87,NA,NA,NA,NA
+White,NA,55-59,Female,32,15,NA,NA,NA,NA
+White,NA,55-59,Male,86,78,NA,NA,NA,NA
+White,NA,60-64,Female,34,9,NA,NA,NA,NA
+White,NA,60-64,Male,59,48,NA,NA,NA,NA
+White,NA,65-69,Female,22,12,NA,NA,NA,NA
+White,NA,65-69,Male,42,28,NA,NA,NA,NA
+White,NA,70-74,Female,20,1,NA,NA,NA,NA
+White,NA,70-74,Male,24,30,NA,NA,NA,NA
+White,NA,75-79,Female,16,4,NA,NA,NA,NA
+White,NA,75-79,Male,19,15,NA,NA,NA,NA
+White,NA,80+,Female,26,2,NA,NA,NA,NA
+White,NA,80+,Male,13,14,NA,NA,NA,NA
+White,NA,Unknown,Female,2,4,NA,NA,NA,NA
+White,NA,Unknown,Male,12,31,NA,NA,NA,NA
+White,NA,Unknown,NA,1,1,NA,NA,NA,NA
+NA,Not Hispanic/Latino,0-4,Female,4,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,0-4,Male,4,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,0-4,NA,1,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,5-9,Female,1,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,10-14,Female,1,1,NA,NA,NA,NA
+NA,Not Hispanic/Latino,10-14,Male,1,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,10-14,NA,0,1,NA,NA,NA,NA
+NA,Not Hispanic/Latino,15-19,Female,3,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,15-19,Male,3,5,NA,NA,NA,NA
+NA,Not Hispanic/Latino,20-24,Female,4,2,NA,NA,NA,NA
+NA,Not Hispanic/Latino,20-24,Male,6,13,NA,NA,NA,NA
+NA,Not Hispanic/Latino,20-24,NA,0,2,NA,NA,NA,NA
+NA,Not Hispanic/Latino,25-29,Female,0,3,NA,NA,NA,NA
+NA,Not Hispanic/Latino,25-29,Male,4,8,NA,NA,NA,NA
+NA,Not Hispanic/Latino,25-29,NA,0,5,NA,NA,NA,NA
+NA,Not Hispanic/Latino,30-34,Female,3,1,NA,NA,NA,NA
+NA,Not Hispanic/Latino,30-34,Male,3,3,NA,NA,NA,NA
+NA,Not Hispanic/Latino,35-39,Male,5,3,NA,NA,NA,NA
+NA,Not Hispanic/Latino,40-44,Female,1,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,40-44,Male,2,2,NA,NA,NA,NA
+NA,Not Hispanic/Latino,45-49,Female,1,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,45-49,Male,0,5,NA,NA,NA,NA
+NA,Not Hispanic/Latino,50-54,Female,1,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,50-54,Male,5,3,NA,NA,NA,NA
+NA,Not Hispanic/Latino,55-59,Male,2,1,NA,NA,NA,NA
+NA,Not Hispanic/Latino,60-64,Female,1,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,60-64,Male,1,2,NA,NA,NA,NA
+NA,Not Hispanic/Latino,65-69,Female,1,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,65-69,Male,1,1,NA,NA,NA,NA
+NA,Not Hispanic/Latino,70-74,Male,2,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,75-79,Male,1,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,80+,Female,2,0,NA,NA,NA,NA
+NA,Not Hispanic/Latino,80+,NA,0,1,NA,NA,NA,NA
+NA,Not Hispanic/Latino,Unknown,Female,0,1,NA,NA,NA,NA
+NA,Not Hispanic/Latino,Unknown,Male,0,4,NA,NA,NA,NA
+NA,Not Hispanic/Latino,Unknown,NA,2,26,NA,NA,NA,NA
+NA,Hispanic/Latino,0-4,Male,2,0,NA,NA,NA,NA
+NA,Hispanic/Latino,0-4,NA,1,0,NA,NA,NA,NA
+NA,Hispanic/Latino,5-9,Female,1,0,NA,NA,NA,NA
+NA,Hispanic/Latino,5-9,Male,4,0,NA,NA,NA,NA
+NA,Hispanic/Latino,10-14,Female,2,1,NA,NA,NA,NA
+NA,Hispanic/Latino,10-14,Male,3,2,NA,NA,NA,NA
+NA,Hispanic/Latino,15-19,Female,3,2,NA,NA,NA,NA
+NA,Hispanic/Latino,15-19,Male,10,7,NA,NA,NA,NA
+NA,Hispanic/Latino,15-19,NA,0,1,NA,NA,NA,NA
+NA,Hispanic/Latino,20-24,Female,6,1,NA,NA,NA,NA
+NA,Hispanic/Latino,20-24,Male,21,19,NA,NA,NA,NA
+NA,Hispanic/Latino,25-29,Female,3,1,NA,NA,NA,NA
+NA,Hispanic/Latino,25-29,Male,31,12,NA,NA,NA,NA
+NA,Hispanic/Latino,30-34,Female,3,0,NA,NA,NA,NA
+NA,Hispanic/Latino,30-34,Male,22,5,NA,NA,NA,NA
+NA,Hispanic/Latino,35-39,Female,1,0,NA,NA,NA,NA
+NA,Hispanic/Latino,35-39,Male,22,7,NA,NA,NA,NA
+NA,Hispanic/Latino,35-39,NA,0,1,NA,NA,NA,NA
+NA,Hispanic/Latino,40-44,Female,3,0,NA,NA,NA,NA
+NA,Hispanic/Latino,40-44,Male,13,4,NA,NA,NA,NA
+NA,Hispanic/Latino,45-49,Female,1,0,NA,NA,NA,NA
+NA,Hispanic/Latino,45-49,Male,10,4,NA,NA,NA,NA
+NA,Hispanic/Latino,50-54,Male,8,6,NA,NA,NA,NA
+NA,Hispanic/Latino,50-54,NA,1,1,NA,NA,NA,NA
+NA,Hispanic/Latino,55-59,Male,6,3,NA,NA,NA,NA
+NA,Hispanic/Latino,60-64,Male,6,2,NA,NA,NA,NA
+NA,Hispanic/Latino,65-69,Male,2,1,NA,NA,NA,NA
+NA,Hispanic/Latino,70-74,Female,2,0,NA,NA,NA,NA
+NA,Hispanic/Latino,75-79,Female,1,0,NA,NA,NA,NA
+NA,Hispanic/Latino,75-79,Male,1,0,NA,NA,NA,NA
+NA,Hispanic/Latino,80+,Male,3,0,NA,NA,NA,NA
+NA,Hispanic/Latino,Unknown,Female,1,0,NA,NA,NA,NA
+NA,Hispanic/Latino,Unknown,Male,0,25,NA,NA,NA,NA
+NA,Hispanic/Latino,Unknown,NA,0,4,NA,NA,NA,NA
+NA,NA,0-4,Female,13,0,NA,NA,NA,NA
+NA,NA,0-4,Male,11,0,NA,NA,NA,NA
+NA,NA,0-4,NA,4,5,NA,NA,NA,NA
+NA,NA,5-9,Female,4,0,NA,NA,NA,NA
+NA,NA,5-9,Male,2,0,NA,NA,NA,NA
+NA,NA,10-14,Female,6,0,NA,NA,NA,NA
+NA,NA,10-14,Male,0,3,NA,NA,NA,NA
+NA,NA,15-19,Female,10,4,NA,NA,NA,NA
+NA,NA,15-19,Male,20,30,NA,NA,NA,NA
+NA,NA,15-19,NA,0,39,NA,NA,NA,NA
+NA,NA,20-24,Female,7,5,NA,NA,NA,NA
+NA,NA,20-24,Male,24,45,NA,NA,NA,NA
+NA,NA,20-24,NA,3,32,NA,NA,NA,NA
+NA,NA,25-29,Female,10,4,NA,NA,NA,NA
+NA,NA,25-29,Male,18,25,NA,NA,NA,NA
+NA,NA,25-29,NA,1,16,NA,NA,NA,NA
+NA,NA,30-34,Female,6,4,NA,NA,NA,NA
+NA,NA,30-34,Male,18,21,NA,NA,NA,NA
+NA,NA,30-34,NA,3,19,NA,NA,NA,NA
+NA,NA,35-39,Female,9,3,NA,NA,NA,NA
+NA,NA,35-39,Male,9,22,NA,NA,NA,NA
+NA,NA,35-39,NA,1,11,NA,NA,NA,NA
+NA,NA,40-44,Female,10,4,NA,NA,NA,NA
+NA,NA,40-44,Male,11,25,NA,NA,NA,NA
+NA,NA,40-44,NA,0,6,NA,NA,NA,NA
+NA,NA,45-49,Female,3,2,NA,NA,NA,NA
+NA,NA,45-49,Male,9,5,NA,NA,NA,NA
+NA,NA,45-49,NA,0,15,NA,NA,NA,NA
+NA,NA,50-54,Female,9,2,NA,NA,NA,NA
+NA,NA,50-54,Male,9,13,NA,NA,NA,NA
+NA,NA,50-54,NA,1,52,NA,NA,NA,NA
+NA,NA,55-59,Female,5,0,NA,NA,NA,NA
+NA,NA,55-59,Male,8,5,NA,NA,NA,NA
+NA,NA,55-59,NA,4,20,NA,NA,NA,NA
+NA,NA,60-64,Female,7,2,NA,NA,NA,NA
+NA,NA,60-64,Male,8,1,NA,NA,NA,NA
+NA,NA,60-64,NA,1,0,NA,NA,NA,NA
+NA,NA,65-69,Female,4,0,NA,NA,NA,NA
+NA,NA,65-69,Male,8,6,NA,NA,NA,NA
+NA,NA,70-74,Female,1,0,NA,NA,NA,NA
+NA,NA,70-74,Male,1,0,NA,NA,NA,NA
+NA,NA,70-74,NA,1,0,NA,NA,NA,NA
+NA,NA,75-79,Female,1,0,NA,NA,NA,NA
+NA,NA,80+,Female,4,1,NA,NA,NA,NA
+NA,NA,80+,Male,1,7,NA,NA,NA,NA
+NA,NA,80+,NA,2,11,NA,NA,NA,NA
+NA,NA,Unknown,Female,8,7,NA,NA,NA,NA
+NA,NA,Unknown,Male,28,200,NA,NA,NA,NA
+NA,NA,Unknown,NA,38,4424,NA,NA,NA,NA

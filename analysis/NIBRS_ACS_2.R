@@ -156,6 +156,8 @@ rates_table = combined_table %>%
 
 print(rates_table, n = Inf)
 
+write_csv(rates_table, "results/victim_offender_rates.csv")
+
 ## Plot: victim & offender rate by age, faceted by race ----------------------
 
 colors_role = c("Offenders" = "#3043B4", "Victims" = "#C97703")
