@@ -131,10 +131,17 @@ victims = victims %>%
 age_levels_5yr = c(paste0(seq(0, 75, by = 5), "-", seq(4, 79, by = 5)), "80+", "Unknown")
 
 victims = victims %>%
+  mutate(ethnicity = case_when(
+    str_detect(V4021, "^\\(0\\)") ~ "Not Hispanic/Latino",
+    str_detect(V4021, "^\\(1\\)") ~ "Hispanic/Latino",
+    TRUE ~ NA_character_
+  ) %>% factor(levels = c("Not Hispanic/Latino", "Hispanic/Latino")))
+
+victims = victims %>%
   mutate(age_group_5yr = factor(age_group_5yr, levels = age_levels_5yr))
 
 victim_table = victims %>%
-  group_by(V4020, age_group_5yr, V4019) %>%
+  group_by(V4020, ethnicity, age_group_5yr, V4019) %>%
   summarise(n = n(), .groups = "drop") %>%
   rename(race = V4020, sex = V4019)
 

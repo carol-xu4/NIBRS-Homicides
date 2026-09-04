@@ -1,238 +1,534 @@
-race,age_group_5yr,sex,n_victims,n_offenders
-(1) White,0-4,(0) Female,92,0
-(1) White,0-4,(1) Male,127,0
-(1) White,0-4,NA,1,0
-(1) White,5-9,(0) Female,26,0
-(1) White,5-9,(1) Male,46,1
-(1) White,5-9,NA,1,0
-(1) White,10-14,(0) Female,37,7
-(1) White,10-14,(1) Male,66,72
-(1) White,15-19,(0) Female,160,116
-(1) White,15-19,(1) Male,595,1029
-(1) White,15-19,NA,2,0
-(1) White,20-24,(0) Female,231,199
-(1) White,20-24,(1) Male,608,932
-(1) White,25-29,(0) Female,179,162
-(1) White,25-29,(1) Male,521,753
-(1) White,25-29,NA,1,0
-(1) White,30-34,(0) Female,247,171
-(1) White,30-34,(1) Male,626,691
-(1) White,35-39,(0) Female,227,160
-(1) White,35-39,(1) Male,548,602
-(1) White,35-39,NA,2,1
-(1) White,40-44,(0) Female,225,109
-(1) White,40-44,(1) Male,493,487
-(1) White,40-44,NA,2,0
-(1) White,45-49,(0) Female,162,65
-(1) White,45-49,(1) Male,373,337
-(1) White,45-49,NA,0,1
-(1) White,50-54,(0) Female,149,57
-(1) White,50-54,(1) Male,325,283
-(1) White,55-59,(0) Female,137,42
-(1) White,55-59,(1) Male,320,222
-(1) White,60-64,(0) Female,153,24
-(1) White,60-64,(1) Male,229,160
-(1) White,65-69,(0) Female,100,19
-(1) White,65-69,(1) Male,176,86
-(1) White,70-74,(0) Female,83,9
-(1) White,70-74,(1) Male,108,69
-(1) White,75-79,(0) Female,59,11
-(1) White,75-79,(1) Male,68,49
-(1) White,80+,(0) Female,79,4
-(1) White,80+,(1) Male,73,50
-(1) White,Unknown,(0) Female,20,11
-(1) White,Unknown,(1) Male,34,110
-(1) White,Unknown,NA,1,5
-(2) Black or African American,0-4,(0) Female,89,0
-(2) Black or African American,0-4,(1) Male,104,3
-(2) Black or African American,0-4,NA,1,0
-(2) Black or African American,5-9,(0) Female,27,0
-(2) Black or African American,5-9,(1) Male,38,0
-(2) Black or African American,10-14,(0) Female,41,13
-(2) Black or African American,10-14,(1) Male,124,121
-(2) Black or African American,15-19,(0) Female,169,115
-(2) Black or African American,15-19,(1) Male,1130,1721
-(2) Black or African American,15-19,NA,1,2
-(2) Black or African American,20-24,(0) Female,208,206
-(2) Black or African American,20-24,(1) Male,1315,1661
-(2) Black or African American,25-29,(0) Female,188,194
-(2) Black or African American,25-29,(1) Male,1153,1128
-(2) Black or African American,25-29,NA,0,1
-(2) Black or African American,30-34,(0) Female,185,135
-(2) Black or African American,30-34,(1) Male,1120,975
-(2) Black or African American,30-34,NA,0,3
-(2) Black or African American,35-39,(0) Female,125,110
-(2) Black or African American,35-39,(1) Male,733,578
-(2) Black or African American,35-39,NA,1,0
-(2) Black or African American,40-44,(0) Female,134,78
-(2) Black or African American,40-44,(1) Male,616,463
-(2) Black or African American,40-44,NA,1,1
-(2) Black or African American,45-49,(0) Female,89,35
-(2) Black or African American,45-49,(1) Male,417,279
-(2) Black or African American,50-54,(0) Female,65,35
-(2) Black or African American,50-54,(1) Male,281,226
-(2) Black or African American,50-54,NA,1,1
-(2) Black or African American,55-59,(0) Female,73,20
-(2) Black or African American,55-59,(1) Male,233,164
-(2) Black or African American,55-59,NA,0,1
-(2) Black or African American,60-64,(0) Female,37,12
-(2) Black or African American,60-64,(1) Male,163,91
-(2) Black or African American,60-64,NA,1,0
-(2) Black or African American,65-69,(0) Female,32,12
-(2) Black or African American,65-69,(1) Male,109,47
-(2) Black or African American,70-74,(0) Female,27,2
-(2) Black or African American,70-74,(1) Male,39,18
-(2) Black or African American,75-79,(0) Female,14,3
-(2) Black or African American,75-79,(1) Male,13,6
-(2) Black or African American,80+,(0) Female,12,0
-(2) Black or African American,80+,(1) Male,11,9
-(2) Black or African American,Unknown,(0) Female,13,22
-(2) Black or African American,Unknown,(1) Male,58,502
-(2) Black or African American,Unknown,NA,2,36
-(3) American Indian or Alaska Native,0-4,(0) Female,2,0
-(3) American Indian or Alaska Native,0-4,(1) Male,2,0
-(3) American Indian or Alaska Native,5-9,(1) Male,1,1
-(3) American Indian or Alaska Native,10-14,(0) Female,1,1
-(3) American Indian or Alaska Native,10-14,(1) Male,3,9
-(3) American Indian or Alaska Native,15-19,(0) Female,7,8
-(3) American Indian or Alaska Native,15-19,(1) Male,17,45
-(3) American Indian or Alaska Native,20-24,(0) Female,5,9
-(3) American Indian or Alaska Native,20-24,(1) Male,20,37
-(3) American Indian or Alaska Native,25-29,(0) Female,11,9
-(3) American Indian or Alaska Native,25-29,(1) Male,19,29
-(3) American Indian or Alaska Native,30-34,(0) Female,11,10
-(3) American Indian or Alaska Native,30-34,(1) Male,40,34
-(3) American Indian or Alaska Native,35-39,(0) Female,7,11
-(3) American Indian or Alaska Native,35-39,(1) Male,28,21
-(3) American Indian or Alaska Native,40-44,(0) Female,8,4
-(3) American Indian or Alaska Native,40-44,(1) Male,20,14
-(3) American Indian or Alaska Native,45-49,(0) Female,3,3
-(3) American Indian or Alaska Native,45-49,(1) Male,6,7
-(3) American Indian or Alaska Native,50-54,(0) Female,1,3
-(3) American Indian or Alaska Native,50-54,(1) Male,7,3
-(3) American Indian or Alaska Native,55-59,(0) Female,2,2
-(3) American Indian or Alaska Native,55-59,(1) Male,7,4
-(3) American Indian or Alaska Native,60-64,(0) Female,3,1
-(3) American Indian or Alaska Native,60-64,(1) Male,7,3
-(3) American Indian or Alaska Native,65-69,(1) Male,4,0
-(3) American Indian or Alaska Native,70-74,(0) Female,1,0
-(3) American Indian or Alaska Native,70-74,(1) Male,4,2
-(3) American Indian or Alaska Native,75-79,(1) Male,1,1
-(3) American Indian or Alaska Native,80+,(0) Female,1,0
-(3) American Indian or Alaska Native,80+,(1) Male,1,0
-(3) American Indian or Alaska Native,Unknown,(0) Female,1,1
-(3) American Indian or Alaska Native,Unknown,(1) Male,3,3
-(4) Asian,0-4,(0) Female,2,0
-(4) Asian,0-4,(1) Male,6,0
-(4) Asian,5-9,(0) Female,2,0
-(4) Asian,5-9,(1) Male,8,0
-(4) Asian,10-14,(0) Female,2,0
-(4) Asian,10-14,(1) Male,4,1
-(4) Asian,15-19,(0) Female,5,0
-(4) Asian,15-19,(1) Male,14,20
-(4) Asian,20-24,(0) Female,5,3
-(4) Asian,20-24,(1) Male,16,35
-(4) Asian,25-29,(0) Female,8,3
-(4) Asian,25-29,(1) Male,15,24
-(4) Asian,30-34,(0) Female,11,5
-(4) Asian,30-34,(1) Male,15,14
-(4) Asian,35-39,(0) Female,16,3
-(4) Asian,35-39,(1) Male,19,13
-(4) Asian,40-44,(0) Female,5,4
-(4) Asian,40-44,(1) Male,15,9
-(4) Asian,45-49,(0) Female,8,1
-(4) Asian,45-49,(1) Male,13,13
-(4) Asian,50-54,(0) Female,8,2
-(4) Asian,50-54,(1) Male,10,12
-(4) Asian,55-59,(0) Female,11,0
-(4) Asian,55-59,(1) Male,8,6
-(4) Asian,60-64,(0) Female,7,2
-(4) Asian,60-64,(1) Male,8,7
-(4) Asian,65-69,(0) Female,12,1
-(4) Asian,65-69,(1) Male,9,6
-(4) Asian,70-74,(0) Female,5,0
-(4) Asian,70-74,(1) Male,8,3
-(4) Asian,75-79,(0) Female,2,0
-(4) Asian,75-79,(1) Male,5,1
-(4) Asian,80+,(0) Female,7,0
-(4) Asian,80+,(1) Male,2,2
-(4) Asian,Unknown,(0) Female,1,0
-(4) Asian,Unknown,(1) Male,0,4
-(4) Asian,Unknown,NA,0,1
-(5) Native Hawaiian or Other Pacific Islander,5-9,(0) Female,1,0
-(5) Native Hawaiian or Other Pacific Islander,10-14,(0) Female,1,0
-(5) Native Hawaiian or Other Pacific Islander,10-14,(1) Male,0,1
-(5) Native Hawaiian or Other Pacific Islander,15-19,(0) Female,0,2
-(5) Native Hawaiian or Other Pacific Islander,15-19,(1) Male,2,13
-(5) Native Hawaiian or Other Pacific Islander,20-24,(0) Female,1,0
-(5) Native Hawaiian or Other Pacific Islander,20-24,(1) Male,6,8
-(5) Native Hawaiian or Other Pacific Islander,25-29,(0) Female,2,0
-(5) Native Hawaiian or Other Pacific Islander,25-29,(1) Male,7,4
-(5) Native Hawaiian or Other Pacific Islander,30-34,(0) Female,1,1
-(5) Native Hawaiian or Other Pacific Islander,30-34,(1) Male,4,4
-(5) Native Hawaiian or Other Pacific Islander,35-39,(0) Female,1,0
-(5) Native Hawaiian or Other Pacific Islander,35-39,(1) Male,2,2
-(5) Native Hawaiian or Other Pacific Islander,40-44,(1) Male,0,2
-(5) Native Hawaiian or Other Pacific Islander,45-49,(1) Male,1,3
-(5) Native Hawaiian or Other Pacific Islander,50-54,(0) Female,1,0
-(5) Native Hawaiian or Other Pacific Islander,50-54,(1) Male,3,2
-(5) Native Hawaiian or Other Pacific Islander,55-59,(1) Male,0,1
-(5) Native Hawaiian or Other Pacific Islander,60-64,(0) Female,1,0
-(5) Native Hawaiian or Other Pacific Islander,60-64,(1) Male,2,0
-(5) Native Hawaiian or Other Pacific Islander,65-69,(0) Female,1,0
-(5) Native Hawaiian or Other Pacific Islander,65-69,(1) Male,1,0
-(5) Native Hawaiian or Other Pacific Islander,70-74,(0) Female,1,0
-(5) Native Hawaiian or Other Pacific Islander,70-74,(1) Male,1,0
-(5) Native Hawaiian or Other Pacific Islander,75-79,(0) Female,1,0
-(5) Native Hawaiian or Other Pacific Islander,Unknown,NA,0,1
-NA,0-4,(0) Female,17,0
-NA,0-4,(1) Male,17,0
-NA,0-4,NA,6,5
-NA,5-9,(0) Female,6,0
-NA,5-9,(1) Male,6,0
-NA,10-14,(0) Female,9,2
-NA,10-14,(1) Male,4,5
-NA,10-14,NA,0,1
-NA,15-19,(0) Female,16,6
-NA,15-19,(1) Male,33,42
-NA,15-19,NA,0,40
-NA,20-24,(0) Female,17,8
-NA,20-24,(1) Male,51,77
-NA,20-24,NA,3,34
-NA,25-29,(0) Female,13,8
-NA,25-29,(1) Male,53,45
-NA,25-29,NA,1,21
-NA,30-34,(0) Female,12,5
-NA,30-34,(1) Male,43,29
-NA,30-34,NA,3,19
-NA,35-39,(0) Female,10,3
-NA,35-39,(1) Male,36,32
-NA,35-39,NA,1,12
-NA,40-44,(0) Female,14,4
-NA,40-44,(1) Male,26,31
-NA,40-44,NA,0,6
-NA,45-49,(0) Female,5,2
-NA,45-49,(1) Male,19,14
-NA,45-49,NA,0,15
-NA,50-54,(0) Female,10,2
-NA,50-54,(1) Male,22,22
-NA,50-54,NA,2,53
-NA,55-59,(0) Female,5,0
-NA,55-59,(1) Male,16,9
-NA,55-59,NA,4,20
-NA,60-64,(0) Female,8,2
-NA,60-64,(1) Male,15,5
-NA,60-64,NA,1,0
-NA,65-69,(0) Female,5,0
-NA,65-69,(1) Male,11,8
-NA,70-74,(0) Female,3,0
-NA,70-74,(1) Male,3,0
-NA,70-74,NA,1,0
-NA,75-79,(0) Female,2,0
-NA,75-79,(1) Male,2,0
-NA,80+,(0) Female,6,1
-NA,80+,(1) Male,4,7
-NA,80+,NA,2,12
-NA,Unknown,(0) Female,9,8
-NA,Unknown,(1) Male,28,229
-NA,Unknown,NA,40,4454
+race,ethnicity,age_group_5yr,sex,n_victims,n_offenders
+(1) White,Not Hispanic/Latino,0-4,(0) Female,44,0
+(1) White,Not Hispanic/Latino,0-4,(1) Male,63,0
+(1) White,Not Hispanic/Latino,5-9,(0) Female,13,0
+(1) White,Not Hispanic/Latino,5-9,(1) Male,26,1
+(1) White,Not Hispanic/Latino,5-9,NA,1,0
+(1) White,Not Hispanic/Latino,10-14,(0) Female,11,2
+(1) White,Not Hispanic/Latino,10-14,(1) Male,26,13
+(1) White,Not Hispanic/Latino,15-19,(0) Female,55,42
+(1) White,Not Hispanic/Latino,15-19,(1) Male,175,229
+(1) White,Not Hispanic/Latino,15-19,NA,1,0
+(1) White,Not Hispanic/Latino,20-24,(0) Female,102,75
+(1) White,Not Hispanic/Latino,20-24,(1) Male,209,279
+(1) White,Not Hispanic/Latino,25-29,(0) Female,82,72
+(1) White,Not Hispanic/Latino,25-29,(1) Male,166,254
+(1) White,Not Hispanic/Latino,30-34,(0) Female,120,88
+(1) White,Not Hispanic/Latino,30-34,(1) Male,238,265
+(1) White,Not Hispanic/Latino,35-39,(0) Female,126,78
+(1) White,Not Hispanic/Latino,35-39,(1) Male,240,239
+(1) White,Not Hispanic/Latino,35-39,NA,1,1
+(1) White,Not Hispanic/Latino,40-44,(0) Female,126,63
+(1) White,Not Hispanic/Latino,40-44,(1) Male,223,224
+(1) White,Not Hispanic/Latino,40-44,NA,2,0
+(1) White,Not Hispanic/Latino,45-49,(0) Female,98,32
+(1) White,Not Hispanic/Latino,45-49,(1) Male,189,150
+(1) White,Not Hispanic/Latino,45-49,NA,0,1
+(1) White,Not Hispanic/Latino,50-54,(0) Female,90,24
+(1) White,Not Hispanic/Latino,50-54,(1) Male,163,130
+(1) White,Not Hispanic/Latino,55-59,(0) Female,82,25
+(1) White,Not Hispanic/Latino,55-59,(1) Male,181,119
+(1) White,Not Hispanic/Latino,60-64,(0) Female,102,13
+(1) White,Not Hispanic/Latino,60-64,(1) Male,142,100
+(1) White,Not Hispanic/Latino,65-69,(0) Female,71,6
+(1) White,Not Hispanic/Latino,65-69,(1) Male,109,48
+(1) White,Not Hispanic/Latino,70-74,(0) Female,55,8
+(1) White,Not Hispanic/Latino,70-74,(1) Male,77,37
+(1) White,Not Hispanic/Latino,75-79,(0) Female,41,7
+(1) White,Not Hispanic/Latino,75-79,(1) Male,43,32
+(1) White,Not Hispanic/Latino,80+,(0) Female,51,2
+(1) White,Not Hispanic/Latino,80+,(1) Male,52,33
+(1) White,Not Hispanic/Latino,Unknown,(0) Female,11,1
+(1) White,Not Hispanic/Latino,Unknown,(1) Male,12,13
+(1) White,Not Hispanic/Latino,Unknown,NA,0,1
+(1) White,Hispanic/Latino,0-4,(0) Female,25,0
+(1) White,Hispanic/Latino,0-4,(1) Male,35,0
+(1) White,Hispanic/Latino,5-9,(0) Female,8,0
+(1) White,Hispanic/Latino,5-9,(1) Male,8,0
+(1) White,Hispanic/Latino,10-14,(0) Female,17,3
+(1) White,Hispanic/Latino,10-14,(1) Male,27,42
+(1) White,Hispanic/Latino,15-19,(0) Female,68,40
+(1) White,Hispanic/Latino,15-19,(1) Male,326,533
+(1) White,Hispanic/Latino,15-19,NA,1,0
+(1) White,Hispanic/Latino,20-24,(0) Female,86,67
+(1) White,Hispanic/Latino,20-24,(1) Male,316,414
+(1) White,Hispanic/Latino,25-29,(0) Female,56,38
+(1) White,Hispanic/Latino,25-29,(1) Male,264,281
+(1) White,Hispanic/Latino,30-34,(0) Female,70,28
+(1) White,Hispanic/Latino,30-34,(1) Male,289,213
+(1) White,Hispanic/Latino,35-39,(0) Female,49,30
+(1) White,Hispanic/Latino,35-39,(1) Male,212,174
+(1) White,Hispanic/Latino,40-44,(0) Female,39,10
+(1) White,Hispanic/Latino,40-44,(1) Male,174,119
+(1) White,Hispanic/Latino,45-49,(0) Female,31,8
+(1) White,Hispanic/Latino,45-49,(1) Male,107,76
+(1) White,Hispanic/Latino,50-54,(0) Female,24,6
+(1) White,Hispanic/Latino,50-54,(1) Male,98,66
+(1) White,Hispanic/Latino,55-59,(0) Female,23,2
+(1) White,Hispanic/Latino,55-59,(1) Male,53,25
+(1) White,Hispanic/Latino,60-64,(0) Female,17,2
+(1) White,Hispanic/Latino,60-64,(1) Male,28,12
+(1) White,Hispanic/Latino,65-69,(0) Female,7,1
+(1) White,Hispanic/Latino,65-69,(1) Male,25,10
+(1) White,Hispanic/Latino,70-74,(0) Female,8,0
+(1) White,Hispanic/Latino,70-74,(1) Male,7,2
+(1) White,Hispanic/Latino,75-79,(0) Female,2,0
+(1) White,Hispanic/Latino,75-79,(1) Male,6,2
+(1) White,Hispanic/Latino,80+,(0) Female,2,0
+(1) White,Hispanic/Latino,80+,(1) Male,8,3
+(1) White,Hispanic/Latino,Unknown,(0) Female,7,6
+(1) White,Hispanic/Latino,Unknown,(1) Male,10,66
+(1) White,Hispanic/Latino,Unknown,NA,0,3
+(1) White,NA,0-4,(0) Female,23,0
+(1) White,NA,0-4,(1) Male,29,0
+(1) White,NA,0-4,NA,1,0
+(1) White,NA,5-9,(0) Female,5,0
+(1) White,NA,5-9,(1) Male,12,0
+(1) White,NA,10-14,(0) Female,9,2
+(1) White,NA,10-14,(1) Male,13,17
+(1) White,NA,15-19,(0) Female,37,34
+(1) White,NA,15-19,(1) Male,94,267
+(1) White,NA,20-24,(0) Female,43,57
+(1) White,NA,20-24,(1) Male,83,239
+(1) White,NA,25-29,(0) Female,41,52
+(1) White,NA,25-29,(1) Male,91,218
+(1) White,NA,25-29,NA,1,0
+(1) White,NA,30-34,(0) Female,57,55
+(1) White,NA,30-34,(1) Male,99,213
+(1) White,NA,35-39,(0) Female,52,52
+(1) White,NA,35-39,(1) Male,96,189
+(1) White,NA,35-39,NA,1,0
+(1) White,NA,40-44,(0) Female,60,36
+(1) White,NA,40-44,(1) Male,96,144
+(1) White,NA,45-49,(0) Female,33,25
+(1) White,NA,45-49,(1) Male,77,111
+(1) White,NA,50-54,(0) Female,35,27
+(1) White,NA,50-54,(1) Male,64,87
+(1) White,NA,55-59,(0) Female,32,15
+(1) White,NA,55-59,(1) Male,86,78
+(1) White,NA,60-64,(0) Female,34,9
+(1) White,NA,60-64,(1) Male,59,48
+(1) White,NA,65-69,(0) Female,22,12
+(1) White,NA,65-69,(1) Male,42,28
+(1) White,NA,70-74,(0) Female,20,1
+(1) White,NA,70-74,(1) Male,24,30
+(1) White,NA,75-79,(0) Female,16,4
+(1) White,NA,75-79,(1) Male,19,15
+(1) White,NA,80+,(0) Female,26,2
+(1) White,NA,80+,(1) Male,13,14
+(1) White,NA,Unknown,(0) Female,2,4
+(1) White,NA,Unknown,(1) Male,12,31
+(1) White,NA,Unknown,NA,1,1
+(2) Black or African American,Not Hispanic/Latino,0-4,(0) Female,65,0
+(2) Black or African American,Not Hispanic/Latino,0-4,(1) Male,79,0
+(2) Black or African American,Not Hispanic/Latino,5-9,(0) Female,23,0
+(2) Black or African American,Not Hispanic/Latino,5-9,(1) Male,30,0
+(2) Black or African American,Not Hispanic/Latino,10-14,(0) Female,36,10
+(2) Black or African American,Not Hispanic/Latino,10-14,(1) Male,99,78
+(2) Black or African American,Not Hispanic/Latino,15-19,(0) Female,136,76
+(2) Black or African American,Not Hispanic/Latino,15-19,(1) Male,885,1166
+(2) Black or African American,Not Hispanic/Latino,15-19,NA,0,1
+(2) Black or African American,Not Hispanic/Latino,20-24,(0) Female,161,138
+(2) Black or African American,Not Hispanic/Latino,20-24,(1) Male,1043,1131
+(2) Black or African American,Not Hispanic/Latino,25-29,(0) Female,148,124
+(2) Black or African American,Not Hispanic/Latino,25-29,(1) Male,916,751
+(2) Black or African American,Not Hispanic/Latino,25-29,NA,0,1
+(2) Black or African American,Not Hispanic/Latino,30-34,(0) Female,141,93
+(2) Black or African American,Not Hispanic/Latino,30-34,(1) Male,866,700
+(2) Black or African American,Not Hispanic/Latino,30-34,NA,0,3
+(2) Black or African American,Not Hispanic/Latino,35-39,(0) Female,96,67
+(2) Black or African American,Not Hispanic/Latino,35-39,(1) Male,561,423
+(2) Black or African American,Not Hispanic/Latino,35-39,NA,1,0
+(2) Black or African American,Not Hispanic/Latino,40-44,(0) Female,106,56
+(2) Black or African American,Not Hispanic/Latino,40-44,(1) Male,481,332
+(2) Black or African American,Not Hispanic/Latino,45-49,(0) Female,71,23
+(2) Black or African American,Not Hispanic/Latino,45-49,(1) Male,319,187
+(2) Black or African American,Not Hispanic/Latino,50-54,(0) Female,45,24
+(2) Black or African American,Not Hispanic/Latino,50-54,(1) Male,223,153
+(2) Black or African American,Not Hispanic/Latino,55-59,(0) Female,62,10
+(2) Black or African American,Not Hispanic/Latino,55-59,(1) Male,192,114
+(2) Black or African American,Not Hispanic/Latino,55-59,NA,0,1
+(2) Black or African American,Not Hispanic/Latino,60-64,(0) Female,23,10
+(2) Black or African American,Not Hispanic/Latino,60-64,(1) Male,124,62
+(2) Black or African American,Not Hispanic/Latino,65-69,(0) Female,25,9
+(2) Black or African American,Not Hispanic/Latino,65-69,(1) Male,86,33
+(2) Black or African American,Not Hispanic/Latino,70-74,(0) Female,23,2
+(2) Black or African American,Not Hispanic/Latino,70-74,(1) Male,32,13
+(2) Black or African American,Not Hispanic/Latino,75-79,(0) Female,8,3
+(2) Black or African American,Not Hispanic/Latino,75-79,(1) Male,6,3
+(2) Black or African American,Not Hispanic/Latino,80+,(0) Female,11,0
+(2) Black or African American,Not Hispanic/Latino,80+,(1) Male,10,6
+(2) Black or African American,Not Hispanic/Latino,Unknown,(0) Female,10,12
+(2) Black or African American,Not Hispanic/Latino,Unknown,(1) Male,36,278
+(2) Black or African American,Not Hispanic/Latino,Unknown,NA,1,23
+(2) Black or African American,Hispanic/Latino,0-4,(0) Female,2,0
+(2) Black or African American,Hispanic/Latino,0-4,(1) Male,2,0
+(2) Black or African American,Hispanic/Latino,5-9,(0) Female,1,0
+(2) Black or African American,Hispanic/Latino,10-14,(0) Female,1,0
+(2) Black or African American,Hispanic/Latino,15-19,(0) Female,1,1
+(2) Black or African American,Hispanic/Latino,15-19,(1) Male,12,25
+(2) Black or African American,Hispanic/Latino,20-24,(0) Female,1,3
+(2) Black or African American,Hispanic/Latino,20-24,(1) Male,18,7
+(2) Black or African American,Hispanic/Latino,25-29,(0) Female,0,1
+(2) Black or African American,Hispanic/Latino,25-29,(1) Male,7,16
+(2) Black or African American,Hispanic/Latino,30-34,(0) Female,1,0
+(2) Black or African American,Hispanic/Latino,30-34,(1) Male,10,7
+(2) Black or African American,Hispanic/Latino,35-39,(0) Female,2,0
+(2) Black or African American,Hispanic/Latino,35-39,(1) Male,9,1
+(2) Black or African American,Hispanic/Latino,40-44,(0) Female,1,0
+(2) Black or African American,Hispanic/Latino,40-44,(1) Male,6,2
+(2) Black or African American,Hispanic/Latino,45-49,(0) Female,1,1
+(2) Black or African American,Hispanic/Latino,45-49,(1) Male,3,1
+(2) Black or African American,Hispanic/Latino,50-54,(0) Female,0,1
+(2) Black or African American,Hispanic/Latino,50-54,(1) Male,3,3
+(2) Black or African American,Hispanic/Latino,50-54,NA,1,0
+(2) Black or African American,Hispanic/Latino,55-59,(0) Female,1,0
+(2) Black or African American,Hispanic/Latino,55-59,(1) Male,2,0
+(2) Black or African American,Hispanic/Latino,60-64,(1) Male,0,1
+(2) Black or African American,Hispanic/Latino,65-69,(1) Male,1,0
+(2) Black or African American,Hispanic/Latino,Unknown,(1) Male,2,1
+(2) Black or African American,NA,0-4,(0) Female,22,0
+(2) Black or African American,NA,0-4,(1) Male,23,3
+(2) Black or African American,NA,0-4,NA,1,0
+(2) Black or African American,NA,5-9,(0) Female,3,0
+(2) Black or African American,NA,5-9,(1) Male,8,0
+(2) Black or African American,NA,10-14,(0) Female,4,3
+(2) Black or African American,NA,10-14,(1) Male,25,43
+(2) Black or African American,NA,15-19,(0) Female,32,38
+(2) Black or African American,NA,15-19,(1) Male,233,530
+(2) Black or African American,NA,15-19,NA,1,1
+(2) Black or African American,NA,20-24,(0) Female,46,65
+(2) Black or African American,NA,20-24,(1) Male,254,523
+(2) Black or African American,NA,25-29,(0) Female,40,69
+(2) Black or African American,NA,25-29,(1) Male,230,361
+(2) Black or African American,NA,30-34,(0) Female,43,42
+(2) Black or African American,NA,30-34,(1) Male,244,268
+(2) Black or African American,NA,35-39,(0) Female,27,43
+(2) Black or African American,NA,35-39,(1) Male,163,154
+(2) Black or African American,NA,40-44,(0) Female,27,22
+(2) Black or African American,NA,40-44,(1) Male,129,129
+(2) Black or African American,NA,40-44,NA,1,1
+(2) Black or African American,NA,45-49,(0) Female,17,11
+(2) Black or African American,NA,45-49,(1) Male,95,91
+(2) Black or African American,NA,50-54,(0) Female,20,10
+(2) Black or African American,NA,50-54,(1) Male,55,70
+(2) Black or African American,NA,50-54,NA,0,1
+(2) Black or African American,NA,55-59,(0) Female,10,10
+(2) Black or African American,NA,55-59,(1) Male,39,50
+(2) Black or African American,NA,60-64,(0) Female,14,2
+(2) Black or African American,NA,60-64,(1) Male,39,28
+(2) Black or African American,NA,60-64,NA,1,0
+(2) Black or African American,NA,65-69,(0) Female,7,3
+(2) Black or African American,NA,65-69,(1) Male,22,14
+(2) Black or African American,NA,70-74,(0) Female,4,0
+(2) Black or African American,NA,70-74,(1) Male,7,5
+(2) Black or African American,NA,75-79,(0) Female,6,0
+(2) Black or African American,NA,75-79,(1) Male,7,3
+(2) Black or African American,NA,80+,(0) Female,1,0
+(2) Black or African American,NA,80+,(1) Male,1,3
+(2) Black or African American,NA,Unknown,(0) Female,3,10
+(2) Black or African American,NA,Unknown,(1) Male,20,223
+(2) Black or African American,NA,Unknown,NA,1,13
+(3) American Indian or Alaska Native,Not Hispanic/Latino,0-4,(0) Female,1,0
+(3) American Indian or Alaska Native,Not Hispanic/Latino,0-4,(1) Male,1,0
+(3) American Indian or Alaska Native,Not Hispanic/Latino,5-9,(1) Male,1,0
+(3) American Indian or Alaska Native,Not Hispanic/Latino,10-14,(0) Female,0,1
+(3) American Indian or Alaska Native,Not Hispanic/Latino,10-14,(1) Male,1,7
+(3) American Indian or Alaska Native,Not Hispanic/Latino,15-19,(0) Female,3,5
+(3) American Indian or Alaska Native,Not Hispanic/Latino,15-19,(1) Male,11,24
+(3) American Indian or Alaska Native,Not Hispanic/Latino,20-24,(0) Female,4,3
+(3) American Indian or Alaska Native,Not Hispanic/Latino,20-24,(1) Male,15,19
+(3) American Indian or Alaska Native,Not Hispanic/Latino,25-29,(0) Female,5,6
+(3) American Indian or Alaska Native,Not Hispanic/Latino,25-29,(1) Male,14,22
+(3) American Indian or Alaska Native,Not Hispanic/Latino,30-34,(0) Female,8,2
+(3) American Indian or Alaska Native,Not Hispanic/Latino,30-34,(1) Male,26,21
+(3) American Indian or Alaska Native,Not Hispanic/Latino,35-39,(0) Female,4,8
+(3) American Indian or Alaska Native,Not Hispanic/Latino,35-39,(1) Male,21,10
+(3) American Indian or Alaska Native,Not Hispanic/Latino,40-44,(0) Female,6,2
+(3) American Indian or Alaska Native,Not Hispanic/Latino,40-44,(1) Male,8,6
+(3) American Indian or Alaska Native,Not Hispanic/Latino,45-49,(0) Female,1,2
+(3) American Indian or Alaska Native,Not Hispanic/Latino,45-49,(1) Male,4,6
+(3) American Indian or Alaska Native,Not Hispanic/Latino,50-54,(0) Female,1,1
+(3) American Indian or Alaska Native,Not Hispanic/Latino,50-54,(1) Male,6,1
+(3) American Indian or Alaska Native,Not Hispanic/Latino,55-59,(0) Female,2,2
+(3) American Indian or Alaska Native,Not Hispanic/Latino,55-59,(1) Male,5,3
+(3) American Indian or Alaska Native,Not Hispanic/Latino,60-64,(0) Female,2,1
+(3) American Indian or Alaska Native,Not Hispanic/Latino,60-64,(1) Male,4,2
+(3) American Indian or Alaska Native,Not Hispanic/Latino,65-69,(1) Male,2,0
+(3) American Indian or Alaska Native,Not Hispanic/Latino,70-74,(1) Male,3,1
+(3) American Indian or Alaska Native,Not Hispanic/Latino,80+,(0) Female,1,0
+(3) American Indian or Alaska Native,Not Hispanic/Latino,Unknown,(0) Female,1,0
+(3) American Indian or Alaska Native,Not Hispanic/Latino,Unknown,(1) Male,2,0
+(3) American Indian or Alaska Native,Hispanic/Latino,15-19,(0) Female,0,1
+(3) American Indian or Alaska Native,Hispanic/Latino,15-19,(1) Male,1,3
+(3) American Indian or Alaska Native,Hispanic/Latino,20-24,(1) Male,1,0
+(3) American Indian or Alaska Native,Hispanic/Latino,30-34,(1) Male,2,1
+(3) American Indian or Alaska Native,Hispanic/Latino,35-39,(1) Male,2,0
+(3) American Indian or Alaska Native,Hispanic/Latino,40-44,(0) Female,0,1
+(3) American Indian or Alaska Native,Hispanic/Latino,40-44,(1) Male,1,0
+(3) American Indian or Alaska Native,Hispanic/Latino,60-64,(1) Male,1,0
+(3) American Indian or Alaska Native,Hispanic/Latino,65-69,(1) Male,1,0
+(3) American Indian or Alaska Native,NA,0-4,(0) Female,1,0
+(3) American Indian or Alaska Native,NA,0-4,(1) Male,1,0
+(3) American Indian or Alaska Native,NA,5-9,(1) Male,0,1
+(3) American Indian or Alaska Native,NA,10-14,(0) Female,1,0
+(3) American Indian or Alaska Native,NA,10-14,(1) Male,2,2
+(3) American Indian or Alaska Native,NA,15-19,(0) Female,4,2
+(3) American Indian or Alaska Native,NA,15-19,(1) Male,5,18
+(3) American Indian or Alaska Native,NA,20-24,(0) Female,1,6
+(3) American Indian or Alaska Native,NA,20-24,(1) Male,4,18
+(3) American Indian or Alaska Native,NA,25-29,(0) Female,6,3
+(3) American Indian or Alaska Native,NA,25-29,(1) Male,5,7
+(3) American Indian or Alaska Native,NA,30-34,(0) Female,3,8
+(3) American Indian or Alaska Native,NA,30-34,(1) Male,12,12
+(3) American Indian or Alaska Native,NA,35-39,(0) Female,3,3
+(3) American Indian or Alaska Native,NA,35-39,(1) Male,5,11
+(3) American Indian or Alaska Native,NA,40-44,(0) Female,2,1
+(3) American Indian or Alaska Native,NA,40-44,(1) Male,11,8
+(3) American Indian or Alaska Native,NA,45-49,(0) Female,2,1
+(3) American Indian or Alaska Native,NA,45-49,(1) Male,2,1
+(3) American Indian or Alaska Native,NA,50-54,(0) Female,0,2
+(3) American Indian or Alaska Native,NA,50-54,(1) Male,1,2
+(3) American Indian or Alaska Native,NA,55-59,(1) Male,2,1
+(3) American Indian or Alaska Native,NA,60-64,(0) Female,1,0
+(3) American Indian or Alaska Native,NA,60-64,(1) Male,2,1
+(3) American Indian or Alaska Native,NA,65-69,(1) Male,1,0
+(3) American Indian or Alaska Native,NA,70-74,(0) Female,1,0
+(3) American Indian or Alaska Native,NA,70-74,(1) Male,1,1
+(3) American Indian or Alaska Native,NA,75-79,(1) Male,1,1
+(3) American Indian or Alaska Native,NA,80+,(1) Male,1,0
+(3) American Indian or Alaska Native,NA,Unknown,(0) Female,0,1
+(3) American Indian or Alaska Native,NA,Unknown,(1) Male,1,3
+(4) Asian,Not Hispanic/Latino,0-4,(0) Female,2,0
+(4) Asian,Not Hispanic/Latino,0-4,(1) Male,5,0
+(4) Asian,Not Hispanic/Latino,5-9,(0) Female,1,0
+(4) Asian,Not Hispanic/Latino,5-9,(1) Male,7,0
+(4) Asian,Not Hispanic/Latino,10-14,(0) Female,1,0
+(4) Asian,Not Hispanic/Latino,10-14,(1) Male,3,1
+(4) Asian,Not Hispanic/Latino,15-19,(0) Female,5,0
+(4) Asian,Not Hispanic/Latino,15-19,(1) Male,12,18
+(4) Asian,Not Hispanic/Latino,20-24,(0) Female,2,3
+(4) Asian,Not Hispanic/Latino,20-24,(1) Male,13,20
+(4) Asian,Not Hispanic/Latino,25-29,(0) Female,8,2
+(4) Asian,Not Hispanic/Latino,25-29,(1) Male,13,18
+(4) Asian,Not Hispanic/Latino,30-34,(0) Female,7,4
+(4) Asian,Not Hispanic/Latino,30-34,(1) Male,9,8
+(4) Asian,Not Hispanic/Latino,35-39,(0) Female,15,3
+(4) Asian,Not Hispanic/Latino,35-39,(1) Male,15,10
+(4) Asian,Not Hispanic/Latino,40-44,(0) Female,5,2
+(4) Asian,Not Hispanic/Latino,40-44,(1) Male,8,4
+(4) Asian,Not Hispanic/Latino,45-49,(0) Female,5,1
+(4) Asian,Not Hispanic/Latino,45-49,(1) Male,11,11
+(4) Asian,Not Hispanic/Latino,50-54,(0) Female,7,2
+(4) Asian,Not Hispanic/Latino,50-54,(1) Male,7,8
+(4) Asian,Not Hispanic/Latino,55-59,(0) Female,8,0
+(4) Asian,Not Hispanic/Latino,55-59,(1) Male,8,4
+(4) Asian,Not Hispanic/Latino,60-64,(0) Female,7,1
+(4) Asian,Not Hispanic/Latino,60-64,(1) Male,8,4
+(4) Asian,Not Hispanic/Latino,65-69,(0) Female,12,0
+(4) Asian,Not Hispanic/Latino,65-69,(1) Male,8,4
+(4) Asian,Not Hispanic/Latino,70-74,(0) Female,5,0
+(4) Asian,Not Hispanic/Latino,70-74,(1) Male,7,2
+(4) Asian,Not Hispanic/Latino,75-79,(0) Female,2,0
+(4) Asian,Not Hispanic/Latino,75-79,(1) Male,3,1
+(4) Asian,Not Hispanic/Latino,80+,(0) Female,7,0
+(4) Asian,Not Hispanic/Latino,80+,(1) Male,1,2
+(4) Asian,Not Hispanic/Latino,Unknown,(0) Female,1,0
+(4) Asian,Not Hispanic/Latino,Unknown,(1) Male,0,1
+(4) Asian,Not Hispanic/Latino,Unknown,NA,0,1
+(4) Asian,Hispanic/Latino,15-19,(1) Male,1,0
+(4) Asian,Hispanic/Latino,20-24,(0) Female,1,0
+(4) Asian,Hispanic/Latino,20-24,(1) Male,0,2
+(4) Asian,Hispanic/Latino,25-29,(1) Male,1,1
+(4) Asian,Hispanic/Latino,45-49,(1) Male,1,0
+(4) Asian,Hispanic/Latino,70-74,(1) Male,1,0
+(4) Asian,Hispanic/Latino,75-79,(1) Male,1,0
+(4) Asian,Hispanic/Latino,Unknown,(1) Male,0,1
+(4) Asian,NA,0-4,(1) Male,1,0
+(4) Asian,NA,5-9,(0) Female,1,0
+(4) Asian,NA,5-9,(1) Male,1,0
+(4) Asian,NA,10-14,(0) Female,1,0
+(4) Asian,NA,10-14,(1) Male,1,0
+(4) Asian,NA,15-19,(1) Male,1,2
+(4) Asian,NA,20-24,(0) Female,2,0
+(4) Asian,NA,20-24,(1) Male,3,13
+(4) Asian,NA,25-29,(0) Female,0,1
+(4) Asian,NA,25-29,(1) Male,1,5
+(4) Asian,NA,30-34,(0) Female,4,1
+(4) Asian,NA,30-34,(1) Male,6,6
+(4) Asian,NA,35-39,(0) Female,1,0
+(4) Asian,NA,35-39,(1) Male,4,3
+(4) Asian,NA,40-44,(0) Female,0,2
+(4) Asian,NA,40-44,(1) Male,7,5
+(4) Asian,NA,45-49,(0) Female,3,0
+(4) Asian,NA,45-49,(1) Male,1,2
+(4) Asian,NA,50-54,(0) Female,1,0
+(4) Asian,NA,50-54,(1) Male,3,4
+(4) Asian,NA,55-59,(0) Female,3,0
+(4) Asian,NA,55-59,(1) Male,0,2
+(4) Asian,NA,60-64,(0) Female,0,1
+(4) Asian,NA,60-64,(1) Male,0,3
+(4) Asian,NA,65-69,(0) Female,0,1
+(4) Asian,NA,65-69,(1) Male,1,2
+(4) Asian,NA,70-74,(1) Male,0,1
+(4) Asian,NA,75-79,(1) Male,1,0
+(4) Asian,NA,80+,(1) Male,1,0
+(4) Asian,NA,Unknown,(1) Male,0,2
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,10-14,(1) Male,0,1
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,15-19,(0) Female,0,1
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,15-19,(1) Male,1,7
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,20-24,(1) Male,3,3
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,25-29,(0) Female,1,0
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,25-29,(1) Male,4,1
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,30-34,(0) Female,1,1
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,30-34,(1) Male,2,2
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,35-39,(0) Female,1,0
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,40-44,(1) Male,0,2
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,45-49,(1) Male,1,0
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,50-54,(0) Female,1,0
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,50-54,(1) Male,3,0
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,55-59,(1) Male,0,1
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,60-64,(1) Male,2,0
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,65-69,(0) Female,1,0
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,65-69,(1) Male,1,0
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,70-74,(1) Male,1,0
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,75-79,(0) Female,1,0
+(5) Native Hawaiian or Other Pacific Islander,Not Hispanic/Latino,Unknown,NA,0,1
+(5) Native Hawaiian or Other Pacific Islander,Hispanic/Latino,15-19,(1) Male,1,2
+(5) Native Hawaiian or Other Pacific Islander,Hispanic/Latino,20-24,(1) Male,1,1
+(5) Native Hawaiian or Other Pacific Islander,Hispanic/Latino,25-29,(1) Male,1,1
+(5) Native Hawaiian or Other Pacific Islander,Hispanic/Latino,35-39,(1) Male,1,2
+(5) Native Hawaiian or Other Pacific Islander,Hispanic/Latino,45-49,(1) Male,0,1
+(5) Native Hawaiian or Other Pacific Islander,NA,5-9,(0) Female,1,0
+(5) Native Hawaiian or Other Pacific Islander,NA,10-14,(0) Female,1,0
+(5) Native Hawaiian or Other Pacific Islander,NA,15-19,(0) Female,0,1
+(5) Native Hawaiian or Other Pacific Islander,NA,15-19,(1) Male,0,4
+(5) Native Hawaiian or Other Pacific Islander,NA,20-24,(0) Female,1,0
+(5) Native Hawaiian or Other Pacific Islander,NA,20-24,(1) Male,2,4
+(5) Native Hawaiian or Other Pacific Islander,NA,25-29,(0) Female,1,0
+(5) Native Hawaiian or Other Pacific Islander,NA,25-29,(1) Male,2,2
+(5) Native Hawaiian or Other Pacific Islander,NA,30-34,(1) Male,2,2
+(5) Native Hawaiian or Other Pacific Islander,NA,35-39,(1) Male,1,0
+(5) Native Hawaiian or Other Pacific Islander,NA,45-49,(1) Male,0,2
+(5) Native Hawaiian or Other Pacific Islander,NA,50-54,(1) Male,0,2
+(5) Native Hawaiian or Other Pacific Islander,NA,60-64,(0) Female,1,0
+(5) Native Hawaiian or Other Pacific Islander,NA,70-74,(0) Female,1,0
+NA,Not Hispanic/Latino,0-4,(0) Female,4,0
+NA,Not Hispanic/Latino,0-4,(1) Male,4,0
+NA,Not Hispanic/Latino,0-4,NA,1,0
+NA,Not Hispanic/Latino,5-9,(0) Female,1,0
+NA,Not Hispanic/Latino,10-14,(0) Female,1,1
+NA,Not Hispanic/Latino,10-14,(1) Male,1,0
+NA,Not Hispanic/Latino,10-14,NA,0,1
+NA,Not Hispanic/Latino,15-19,(0) Female,3,0
+NA,Not Hispanic/Latino,15-19,(1) Male,3,5
+NA,Not Hispanic/Latino,20-24,(0) Female,4,2
+NA,Not Hispanic/Latino,20-24,(1) Male,6,13
+NA,Not Hispanic/Latino,20-24,NA,0,2
+NA,Not Hispanic/Latino,25-29,(0) Female,0,3
+NA,Not Hispanic/Latino,25-29,(1) Male,4,8
+NA,Not Hispanic/Latino,25-29,NA,0,5
+NA,Not Hispanic/Latino,30-34,(0) Female,3,1
+NA,Not Hispanic/Latino,30-34,(1) Male,3,3
+NA,Not Hispanic/Latino,35-39,(1) Male,5,3
+NA,Not Hispanic/Latino,40-44,(0) Female,1,0
+NA,Not Hispanic/Latino,40-44,(1) Male,2,2
+NA,Not Hispanic/Latino,45-49,(0) Female,1,0
+NA,Not Hispanic/Latino,45-49,(1) Male,0,5
+NA,Not Hispanic/Latino,50-54,(0) Female,1,0
+NA,Not Hispanic/Latino,50-54,(1) Male,5,3
+NA,Not Hispanic/Latino,55-59,(1) Male,2,1
+NA,Not Hispanic/Latino,60-64,(0) Female,1,0
+NA,Not Hispanic/Latino,60-64,(1) Male,1,2
+NA,Not Hispanic/Latino,65-69,(0) Female,1,0
+NA,Not Hispanic/Latino,65-69,(1) Male,1,1
+NA,Not Hispanic/Latino,70-74,(1) Male,2,0
+NA,Not Hispanic/Latino,75-79,(1) Male,1,0
+NA,Not Hispanic/Latino,80+,(0) Female,2,0
+NA,Not Hispanic/Latino,80+,NA,0,1
+NA,Not Hispanic/Latino,Unknown,(0) Female,0,1
+NA,Not Hispanic/Latino,Unknown,(1) Male,0,4
+NA,Not Hispanic/Latino,Unknown,NA,2,26
+NA,Hispanic/Latino,0-4,(1) Male,2,0
+NA,Hispanic/Latino,0-4,NA,1,0
+NA,Hispanic/Latino,5-9,(0) Female,1,0
+NA,Hispanic/Latino,5-9,(1) Male,4,0
+NA,Hispanic/Latino,10-14,(0) Female,2,1
+NA,Hispanic/Latino,10-14,(1) Male,3,2
+NA,Hispanic/Latino,15-19,(0) Female,3,2
+NA,Hispanic/Latino,15-19,(1) Male,10,7
+NA,Hispanic/Latino,15-19,NA,0,1
+NA,Hispanic/Latino,20-24,(0) Female,6,1
+NA,Hispanic/Latino,20-24,(1) Male,21,19
+NA,Hispanic/Latino,25-29,(0) Female,3,1
+NA,Hispanic/Latino,25-29,(1) Male,31,12
+NA,Hispanic/Latino,30-34,(0) Female,3,0
+NA,Hispanic/Latino,30-34,(1) Male,22,5
+NA,Hispanic/Latino,35-39,(0) Female,1,0
+NA,Hispanic/Latino,35-39,(1) Male,22,7
+NA,Hispanic/Latino,35-39,NA,0,1
+NA,Hispanic/Latino,40-44,(0) Female,3,0
+NA,Hispanic/Latino,40-44,(1) Male,13,4
+NA,Hispanic/Latino,45-49,(0) Female,1,0
+NA,Hispanic/Latino,45-49,(1) Male,10,4
+NA,Hispanic/Latino,50-54,(1) Male,8,6
+NA,Hispanic/Latino,50-54,NA,1,1
+NA,Hispanic/Latino,55-59,(1) Male,6,3
+NA,Hispanic/Latino,60-64,(1) Male,6,2
+NA,Hispanic/Latino,65-69,(1) Male,2,1
+NA,Hispanic/Latino,70-74,(0) Female,2,0
+NA,Hispanic/Latino,75-79,(0) Female,1,0
+NA,Hispanic/Latino,75-79,(1) Male,1,0
+NA,Hispanic/Latino,80+,(1) Male,3,0
+NA,Hispanic/Latino,Unknown,(0) Female,1,0
+NA,Hispanic/Latino,Unknown,(1) Male,0,25
+NA,Hispanic/Latino,Unknown,NA,0,4
+NA,NA,0-4,(0) Female,13,0
+NA,NA,0-4,(1) Male,11,0
+NA,NA,0-4,NA,4,5
+NA,NA,5-9,(0) Female,4,0
+NA,NA,5-9,(1) Male,2,0
+NA,NA,10-14,(0) Female,6,0
+NA,NA,10-14,(1) Male,0,3
+NA,NA,15-19,(0) Female,10,4
+NA,NA,15-19,(1) Male,20,30
+NA,NA,15-19,NA,0,39
+NA,NA,20-24,(0) Female,7,5
+NA,NA,20-24,(1) Male,24,45
+NA,NA,20-24,NA,3,32
+NA,NA,25-29,(0) Female,10,4
+NA,NA,25-29,(1) Male,18,25
+NA,NA,25-29,NA,1,16
+NA,NA,30-34,(0) Female,6,4
+NA,NA,30-34,(1) Male,18,21
+NA,NA,30-34,NA,3,19
+NA,NA,35-39,(0) Female,9,3
+NA,NA,35-39,(1) Male,9,22
+NA,NA,35-39,NA,1,11
+NA,NA,40-44,(0) Female,10,4
+NA,NA,40-44,(1) Male,11,25
+NA,NA,40-44,NA,0,6
+NA,NA,45-49,(0) Female,3,2
+NA,NA,45-49,(1) Male,9,5
+NA,NA,45-49,NA,0,15
+NA,NA,50-54,(0) Female,9,2
+NA,NA,50-54,(1) Male,9,13
+NA,NA,50-54,NA,1,52
+NA,NA,55-59,(0) Female,5,0
+NA,NA,55-59,(1) Male,8,5
+NA,NA,55-59,NA,4,20
+NA,NA,60-64,(0) Female,7,2
+NA,NA,60-64,(1) Male,8,1
+NA,NA,60-64,NA,1,0
+NA,NA,65-69,(0) Female,4,0
+NA,NA,65-69,(1) Male,8,6
+NA,NA,70-74,(0) Female,1,0
+NA,NA,70-74,(1) Male,1,0
+NA,NA,70-74,NA,1,0
+NA,NA,75-79,(0) Female,1,0
+NA,NA,80+,(0) Female,4,1
+NA,NA,80+,(1) Male,1,7
+NA,NA,80+,NA,2,11
+NA,NA,Unknown,(0) Female,8,7
+NA,NA,Unknown,(1) Male,28,200
+NA,NA,Unknown,NA,38,4424

@@ -133,10 +133,17 @@ offenders = offenders %>%
 age_levels_5yr = c(paste0(seq(0, 75, by = 5), "-", seq(4, 79, by = 5)), "80+", "Unknown")
 
 offenders = offenders %>%
+  mutate(ethnicity = case_when(
+    str_detect(V5011, "^\\(0\\)") ~ "Not Hispanic/Latino",
+    str_detect(V5011, "^\\(1\\)") ~ "Hispanic/Latino",
+    TRUE ~ NA_character_) %>% 
+    factor(levels = c("Not Hispanic/Latino", "Hispanic/Latino")))
+
+offenders = offenders %>%
   mutate(age_group_5yr = factor(age_group_5yr, levels = age_levels_5yr))
 
 offender_table = offenders %>%
-  group_by(V5009, age_group_5yr, V5008) %>%
+  group_by(V5009, ethnicity,age_group_5yr, V5008) %>%
   summarise(n = n(), .groups = "drop") %>%
   rename(race = V5009, sex = V5008)
 
