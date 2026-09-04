@@ -121,3 +121,23 @@ ggplot(ethnicity_tbl, aes(x = reorder(V4021, -n), y = n)) +
 
 ggsave("results/victim_ethnicity.png", width = 15, height = 10)
 
+# race, 5 year age bins, and sex
+victims = victims %>%
+  mutate(age_group_5yr = case_when(
+    is.na(V4018) ~ "Unknown",
+    V4018 >= 80 ~ "80+",
+    TRUE ~ paste0(floor(V4018 / 5) * 5, "-", floor(V4018 / 5) * 5 + 4)))
+
+age_levels_5yr = c(paste0(seq(0, 75, by = 5), "-", seq(4, 79, by = 5)), "80+", "Unknown")
+
+victims = victims %>%
+  mutate(age_group_5yr = factor(age_group_5yr, levels = age_levels_5yr))
+
+victim_table = victims %>%
+  group_by(V4020, age_group_5yr, V4019) %>%
+  summarise(n = n(), .groups = "drop") %>%
+  rename(race = V4020, sex = V4019)
+
+print(victim_table, n = Inf)
+
+write_csv(victim_table, "results/victim_race_age_sex.csv")
