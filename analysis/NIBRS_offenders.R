@@ -150,3 +150,62 @@ offender_table = offenders %>%
 print(offender_table, n = Inf)
 
 write_csv(offender_table, "results/offender_race_age_sex.csv")
+
+# new single race categories (ACS) ----------------------------------------------------------------------------
+theme_nibrs_scatter = theme_minimal() +
+  theme(
+    plot.title = element_text(size = 30, face = "bold", hjust = 0, color = "black"),
+    plot.subtitle = element_text(size = 20, color = "gray40", hjust = 0, margin = margin(b = 12)),
+    legend.position = "none",
+    panel.grid.major.x = element_line(color = "gray90", linewidth = 0.5),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.y = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    axis.text.x = element_text(size = 20, color = "gray40"),
+    axis.text.y = element_text(size = 18, color = "gray40"),
+    plot.caption = element_text(size = 12, color = "gray40", hjust = 0),
+    plot.caption.position = "plot",
+    plot.title.position = "plot",
+    plot.background = element_rect(fill = "white", color = NA),
+    panel.background = element_rect(fill = "white", color = NA))
+    
+# age x race
+ggplot(offenders %>% filter(V5007 > 0), aes(x = V5007, y = V5009)) +
+  geom_jitter(color = "#3043B4", alpha = 0.15, height = 0.2, size = 1.5) +
+  scale_x_continuous(breaks = seq(0, 100, by = 10), expand = c(0.02, 0)) +
+  labs(
+    title = "Homicide Offenders by Age and Race",
+    subtitle = "offenders_homicide; NIBRS 2023, excludes offenders coded age = 0 (Unknown) or missing age",
+    x = "Age", y = NULL,
+    caption = "Source: NIBRS 2023 via ICPSR") +
+  theme_nibrs_scatter
+
+ggsave("results/offender_age_race_scatter.png", width = 15, height = 10)
+
+# age x ethnicity
+ggplot(offenders %>% filter(V5007 > 0), aes(x = V5007, y = V5011)) +
+  geom_jitter(color = "#3043B4", alpha = 0.15, height = 0.2, size = 1.5) +
+  scale_x_continuous(breaks = seq(0, 100, by = 10), expand = c(0.02, 0)) +
+  labs(
+    title = "Homicide Offenders by Age and Ethnicity",
+    subtitle = "offenders_homicide; NIBRS 2023, excludes offenders coded age = 0 (Unknown) or missing age",
+    x = "Age", y = NULL,
+    caption = "Source: NIBRS 2023 via ICPSR") +
+  theme_nibrs_scatter
+
+ggsave("results/offender_age_ethnicity_scatter.png", width = 15, height = 10)
+
+# age x sex
+ggplot(offenders %>% filter(V5007 > 0), aes(x = V5007, y = V5008)) +
+  geom_jitter(color = "#3043B4", alpha = 0.15, height = 0.2, size = 1.5) +
+  scale_x_continuous(breaks = seq(0, 100, by = 10), expand = c(0.02, 0)) +
+  labs(
+    title = "Homicide Offenders by Age and Sex",
+    subtitle = "offenders_homicide; NIBRS 2023, excludes offenders coded age = 0 (Unknown) or missing age",
+    x = "Age", y = NULL,
+    caption = "Source: NIBRS 2023 via ICPSR") +
+  theme_nibrs_scatter
+
+ggsave("results/offender_age_sex_scatter.png", width = 15, height = 10)
