@@ -109,12 +109,14 @@ rates_table = combined_table %>%
   arrange(race, ethnicity, age_group_5yr, sex)
 
 print(rates_table, n = Inf, width = Inf)
+print(rates_table, n = 100, width = Inf)
 
 write_csv(rates_table, "results/nibrs_acs_rates.csv")
 
 # plotting rates
 rates_by_race_age = rates_table %>%
-  filter(!is.na(race)) %>%
+  filter(!is.na(race), age_group_5yr != "Unknown") %>%
+  droplevels() %>%  
   group_by(race, age_group_5yr) %>%
   summarise(
     n_victims = sum(n_victims, na.rm = TRUE),
@@ -138,7 +140,8 @@ ggplot(rates_by_race_age, aes(x = age_group_5yr, y = rate_per_100k, color = role
   geom_line(linewidth = 1.5) +
   geom_point(size = 2) +
   scale_color_manual(values = colors_role) +
-  facet_wrap(~ race) +
+  facet_wrap(~ race) + 
+  coord_cartesian(ylim = c(0, 60)) +
   labs(
     title = "Homicide Victim & Offender Rate by Age and Race",
     subtitle = "rates_table; per 100,000 population, NIBRS 2023 / ACS 2023",
@@ -166,7 +169,7 @@ ggplot(rates_by_race_age, aes(x = age_group_5yr, y = rate_per_100k, color = role
     plot.background = element_rect(fill = "white", color = NA),
     panel.background = element_rect(fill = "white", color = NA))
 
-ggsave("results/victim_offender_rate_by_age_race.png", width = 15, height = 10)
+ggsave("results/all_rate_by_age_race.png", width = 15, height = 10)
 
 ## Victim & offender rate by age, faceted by ethnicity -----------------------
 
@@ -226,13 +229,151 @@ ggplot(rates_by_ethnicity_age, aes(x = age_group_5yr, y = rate_per_100k, color =
 
 ggsave("results/victim_offender_rate_by_age_ethnicity.png", width = 15, height = 10)
 
-# new single race categories
+# offending rate vs. victimization
+rates_scatter = rates_table %>%
+  filter(!is.na(victim_rate_per_100k), !is.na(offender_rate_per_100k))
 
+ggplot(rates_scatter, aes(x = victim_rate_per_100k, y = offender_rate_per_100k)) +
+  geom_abline(intercept = 0, slope = 1, color = "gray70", linetype = "dashed", linewidth = 0.8) +
+  geom_point(color = "#3043B4", alpha = 0.5, size = 2.5) +
+  labs(
+    title = "Offender Rate vs. Victimization Rate",
+    subtitle = "rates_table; per 100,000 population, by race x ethnicity x age x sex; NIBRS 2023 / ACS 2023",
+    x = "Victim Rate per 100,000", y = "Offender Rate per 100,000",
+    caption = "Source: NIBRS 2023 via ICPSR; ACS 2023 via IPUMS") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 30, face = "bold", hjust = 0, color = "black"),
+    plot.subtitle = element_text(size = 18, color = "gray40", hjust = 0, margin = margin(b = 12)),
+    legend.position = "none",
+    panel.grid.major = element_line(color = "gray90", linewidth = 0.5),
+    panel.grid.minor = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    axis.title = element_text(size = 20, color = "gray40"),
+    axis.text.x = element_text(size = 18, color = "gray40"),
+    axis.text.y = element_text(size = 18, color = "gray40"),
+    plot.caption = element_text(size = 12, color = "gray40", hjust = 0),
+    plot.caption.position = "plot",
+    plot.title.position = "plot",
+    plot.background = element_rect(fill = "white", color = NA),
+    panel.background = element_rect(fill = "white", color = NA))
 
+ggsave("results/offender_vs_victim_rate_scatter.png", width = 12, height = 12)
 
+ggplot(rates_scatter, aes(x = victim_rate_per_100k, y = offender_rate_per_100k)) +
+  geom_abline(intercept = 0, slope = 1, color = "gray70", linetype = "dashed", linewidth = 0.8) +
+  geom_point(color = "#3043B4", alpha = 0.5, size = 2.5) +
+  coord_cartesian(xlim = c(0, 10), ylim = c(0, 10)) +
+  labs(
+    title = "Offender Rate vs. Victimization Rate (Zoomed)",
+    subtitle = "rates_table; per 100,000 population, by race x ethnicity x age x sex; NIBRS 2023 / ACS 2023",
+    x = "Victim Rate per 100,000", y = "Offender Rate per 100,000",
+    caption = "Source: NIBRS 2023 via ICPSR; ACS 2023 via IPUMS") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 30, face = "bold", hjust = 0, color = "black"),
+    plot.subtitle = element_text(size = 18, color = "gray40", hjust = 0, margin = margin(b = 12)),
+    legend.position = "none",
+    panel.grid.major = element_line(color = "gray90", linewidth = 0.5),
+    panel.grid.minor = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    axis.title = element_text(size = 20, color = "gray40"),
+    axis.text.x = element_text(size = 18, color = "gray40"),
+    axis.text.y = element_text(size = 18, color = "gray40"),
+    plot.caption = element_text(size = 12, color = "gray40", hjust = 0),
+    plot.caption.position = "plot",
+    plot.title.position = "plot",
+    plot.background = element_rect(fill = "white", color = NA),
+    panel.background = element_rect(fill = "white", color = NA))
 
-rates_table %>%
-  filter(is.finite(victim_rate_per_100k) | is.finite(offender_rate_per_100k)) %>%
-  filter(victim_rate_per_100k > 1000 | offender_rate_per_100k > 1000) %>%
-  select(race, ethnicity, age_group_5yr, sex, n_victims, n_offenders, weighted, victim_rate_per_100k, offender_rate_per_100k) %>%
-  arrange(desc(victim_rate_per_100k))
+ggsave("results/offender_vs_victim_rate_scatter_zoom.png", width = 12, height = 12)
+
+rates_scatter = rates_table %>%
+  filter(!is.na(victim_rate_per_100k), !is.na(offender_rate_per_100k),
+         !is.na(race), !is.na(ethnicity), !is.na(sex),
+         age_group_5yr != "Unknown") %>%
+  mutate(age_mid = case_when(
+    age_group_5yr == "80+" ~ 85,
+    TRUE ~ as.numeric(str_extract(as.character(age_group_5yr), "^\\d+")) + 2
+  ))
+
+race_colors = c(
+  "White" = "#3043B4",
+  "Black or African American" = "#C97703",
+  "American Indian or Alaska Native" = "#2CA58D",
+  "Asian" = "#A64AC9",
+  "Native Hawaiian or Other Pacific Islander" = "#D64550"
+)
+
+ggplot(rates_scatter, aes(x = victim_rate_per_100k, y = offender_rate_per_100k,
+                          color = race, shape = sex, size = age_mid)) +
+  geom_abline(intercept = 0, slope = 1, color = "gray70", linetype = "dashed", linewidth = 0.8) +
+  geom_point(alpha = 0.6) +
+  scale_color_manual(values = race_colors) +
+  scale_shape_manual(values = c(Male = 16, Female = 17)) +
+  scale_size_continuous(range = c(1.5, 7), name = "Age (bin midpoint)") +
+  facet_wrap(~ ethnicity) +
+  labs(
+    title = "Offender Rate vs. Victimization Rate, by Race, Sex, Age, and Ethnicity",
+    subtitle = "rates_table; per 100,000 population; NIBRS 2023 / ACS 2023",
+    x = "Victim Rate per 100,000", y = "Offender Rate per 100,000",
+    color = "Race", shape = "Sex",
+    caption = "Source: NIBRS 2023 via ICPSR; ACS 2023 via IPUMS") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 26, face = "bold", hjust = 0, color = "black"),
+    plot.subtitle = element_text(size = 16, color = "gray40", hjust = 0, margin = margin(b = 12)),
+    strip.text = element_text(size = 16, color = "black"),
+    legend.position = "right",
+    legend.text = element_text(size = 12),
+    panel.grid.major = element_line(color = "gray90", linewidth = 0.5),
+    panel.grid.minor = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    axis.title = element_text(size = 16, color = "gray40"),
+    axis.text = element_text(size = 14, color = "gray40"),
+    plot.caption = element_text(size = 12, color = "gray40", hjust = 0),
+    plot.caption.position = "plot",
+    plot.title.position = "plot",
+    plot.background = element_rect(fill = "white", color = NA),
+    panel.background = element_rect(fill = "white", color = NA))
+
+ggsave("results/offender_vs_victim_rate_all_dims.png", width = 16, height = 10)
+
+ggplot(rates_scatter, aes(x = victim_rate_per_100k, y = offender_rate_per_100k,
+                          color = race, shape = sex, size = age_mid)) +
+  geom_abline(intercept = 0, slope = 1, color = "gray70", linetype = "dashed", linewidth = 0.8) +
+  geom_point(alpha = 0.6) +
+  scale_color_manual(values = race_colors) +
+  scale_shape_manual(values = c(Male = 16, Female = 17)) +
+  scale_size_continuous(range = c(1.5, 7), name = "Age (bin midpoint)") +
+  coord_cartesian(xlim = c(0, 10), ylim = c(0, 10)) +
+  facet_wrap(~ ethnicity) +
+  labs(
+    title = "Offender Rate vs. Victimization Rate, by Race, Sex, Age, and Ethnicity (Zoomed)",
+    subtitle = "rates_table; per 100,000 population; NIBRS 2023 / ACS 2023",
+    x = "Victim Rate per 100,000", y = "Offender Rate per 100,000",
+    color = "Race", shape = "Sex",
+    caption = "Source: NIBRS 2023 via ICPSR; ACS 2023 via IPUMS") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 26, face = "bold", hjust = 0, color = "black"),
+    plot.subtitle = element_text(size = 16, color = "gray40", hjust = 0, margin = margin(b = 12)),
+    strip.text = element_text(size = 16, color = "black"),
+    legend.position = "right",
+    legend.text = element_text(size = 12),
+    panel.grid.major = element_line(color = "gray90", linewidth = 0.5),
+    panel.grid.minor = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    axis.title = element_text(size = 16, color = "gray40"),
+    axis.text = element_text(size = 14, color = "gray40"),
+    plot.caption = element_text(size = 12, color = "gray40", hjust = 0),
+    plot.caption.position = "plot",
+    plot.title.position = "plot",
+    plot.background = element_rect(fill = "white", color = NA),
+    panel.background = element_rect(fill = "white", color = NA))
+
+ggsave("results/offender_vs_victim_rate_all_dims_zoom.png", width = 16, height = 10)
