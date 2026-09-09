@@ -94,6 +94,8 @@ print(acs_table_nibrs, n = Inf)
 write_csv(acs_table_nibrs, "results/acs_race_age_sex_nibrs.csv")
 
 # update combined table with rates (NIBRS/ACS)
+combined_table = read_csv("results/victims_offenders_race_age_sex.csv")
+
 combined_table = combined_table %>%
   mutate(
     race = str_remove(race, "^\\(\\d+\\)\\s*"),
@@ -377,3 +379,25 @@ ggplot(rates_scatter, aes(x = victim_rate_per_100k, y = offender_rate_per_100k,
     panel.background = element_rect(fill = "white", color = NA))
 
 ggsave("results/offender_vs_victim_rate_all_dims_zoom.png", width = 16, height = 10)
+
+model = lm(offender_rate_per_100k ~ victim_rate_per_100k, data = rates_scatter)
+summary(model)
+summary(model)$r.squared
+
+
+model_weighted = lm(offender_rate_per_100k ~ victim_rate_per_100k,
+                     data = rates_scatter, weights = n_victims + n_offenders)
+summary(model_weighted)$r.squared
+
+rates_scatter_no_kids = rates_scatter %>%
+  filter(!age_group_5yr %in% c("0-4", "5-9"))
+
+nrow(rates_scatter)
+nrow(rates_scatter_no_kids)   
+
+model_no_kids = lm(offender_rate_per_100k ~ victim_rate_per_100k, data = rates_scatter_no_kids)
+summary(model_no_kids)$r.squared
+
+model_weighted_no_kids = lm(offender_rate_per_100k ~ victim_rate_per_100k,
+                             data = rates_scatter_no_kids, weights = n_victims + n_offenders)
+summary(model_weighted_no_kids)$r.squared

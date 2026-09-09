@@ -170,7 +170,7 @@ theme_nibrs_scatter = theme_minimal() +
     plot.title.position = "plot",
     plot.background = element_rect(fill = "white", color = NA),
     panel.background = element_rect(fill = "white", color = NA))
-    
+
 # age x race
 ggplot(offenders %>% filter(V5007 > 0), aes(x = V5007, y = V5009)) +
   geom_jitter(color = "#3043B4", alpha = 0.15, height = 0.2, size = 1.5) +
@@ -209,3 +209,5 @@ ggplot(offenders %>% filter(V5007 > 0), aes(x = V5007, y = V5008)) +
   theme_nibrs_scatter
 
 ggsave("results/offender_age_sex_scatter.png", width = 15, height = 10)
+
+

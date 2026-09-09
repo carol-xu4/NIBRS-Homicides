@@ -35,3 +35,10 @@ ggplot(combined, aes(x = age, y = category, fill = role)) +
   theme_nibrs_scatter
 
 ggsave("results/nibrs_alldemographics_age.png", width = 15, height = 10)
+
+# victim-offender pairs -------------------------------------------------------------
+homicides = readRDS('data/output/incidents_homicide.rds')
+glimpse(homicides)
+
+table(homicides$V40311, useNA = "always")   # offender-number field: see the actual missing/undetermined codes
+table(homicides$V40061, useNA = "always")   # victim sequence number: confirms whether unused victim slots are NA
