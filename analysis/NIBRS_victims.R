@@ -208,4 +208,7 @@ ggplot(victims, aes(x = V4018, y = V4019)) +
 
 ggsave("results/victim_age_sex_scatter.png", width = 15, height = 10)
 
+# check how many incidents involve >3 victims
+victims %>% count(incident_key, name = "n_victims") %>% count(n_victims > 3, name = "n_incidents")
 
+victims %>% count(incident_key) %>% summarise(max(n))

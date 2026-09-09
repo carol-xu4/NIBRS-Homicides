@@ -210,4 +210,7 @@ ggplot(offenders %>% filter(V5007 > 0), aes(x = V5007, y = V5008)) +
 
 ggsave("results/offender_age_sex_scatter.png", width = 15, height = 10)
 
+# check how many incidents involve >3 offenders
+offenders %>% count(incident_key, name = "n_offenders") %>% count(n_offenders > 3, name = "n_incidents")
 
+offenders %>% count(incident_key) %>% summarise(max(n))
